@@ -117,161 +117,161 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named main
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-NormalRNG.o: NormalRNG.cpp.o
-.PHONY : NormalRNG.o
-
-# target to build an object file
-NormalRNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/NormalRNG.cpp.o
-.PHONY : NormalRNG.cpp.o
-
-NormalRNG.i: NormalRNG.cpp.i
-.PHONY : NormalRNG.i
-
-# target to preprocess a source file
-NormalRNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/NormalRNG.cpp.i
-.PHONY : NormalRNG.cpp.i
-
-NormalRNG.s: NormalRNG.cpp.s
-.PHONY : NormalRNG.s
-
-# target to generate assembly for a file
-NormalRNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/NormalRNG.cpp.s
-.PHONY : NormalRNG.cpp.s
-
-Normal_BM_RNG.o: Normal_BM_RNG.cpp.o
-.PHONY : Normal_BM_RNG.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-Normal_BM_RNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_BM_RNG.cpp.o
-.PHONY : Normal_BM_RNG.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Normal_BM_RNG.i: Normal_BM_RNG.cpp.i
-.PHONY : Normal_BM_RNG.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Normal_BM_RNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_BM_RNG.cpp.i
-.PHONY : Normal_BM_RNG.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Normal_BM_RNG.s: Normal_BM_RNG.cpp.s
-.PHONY : Normal_BM_RNG.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Normal_BM_RNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_BM_RNG.cpp.s
-.PHONY : Normal_BM_RNG.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-Normal_IT_RNG.o: Normal_IT_RNG.cpp.o
-.PHONY : Normal_IT_RNG.o
+rng/Normal-rng/NormalRNG.o: rng/Normal-rng/NormalRNG.cpp.o
+.PHONY : rng/Normal-rng/NormalRNG.o
 
 # target to build an object file
-Normal_IT_RNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_IT_RNG.cpp.o
-.PHONY : Normal_IT_RNG.cpp.o
+rng/Normal-rng/NormalRNG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/NormalRNG.cpp.o
+.PHONY : rng/Normal-rng/NormalRNG.cpp.o
 
-Normal_IT_RNG.i: Normal_IT_RNG.cpp.i
-.PHONY : Normal_IT_RNG.i
+rng/Normal-rng/NormalRNG.i: rng/Normal-rng/NormalRNG.cpp.i
+.PHONY : rng/Normal-rng/NormalRNG.i
 
 # target to preprocess a source file
-Normal_IT_RNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_IT_RNG.cpp.i
-.PHONY : Normal_IT_RNG.cpp.i
+rng/Normal-rng/NormalRNG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/NormalRNG.cpp.i
+.PHONY : rng/Normal-rng/NormalRNG.cpp.i
 
-Normal_IT_RNG.s: Normal_IT_RNG.cpp.s
-.PHONY : Normal_IT_RNG.s
+rng/Normal-rng/NormalRNG.s: rng/Normal-rng/NormalRNG.cpp.s
+.PHONY : rng/Normal-rng/NormalRNG.s
 
 # target to generate assembly for a file
-Normal_IT_RNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Normal_IT_RNG.cpp.s
-.PHONY : Normal_IT_RNG.cpp.s
+rng/Normal-rng/NormalRNG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/NormalRNG.cpp.s
+.PHONY : rng/Normal-rng/NormalRNG.cpp.s
 
-RNG.o: RNG.cpp.o
-.PHONY : RNG.o
+rng/Normal-rng/Normal_BM_RNG.o: rng/Normal-rng/Normal_BM_RNG.cpp.o
+.PHONY : rng/Normal-rng/Normal_BM_RNG.o
 
 # target to build an object file
-RNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/RNG.cpp.o
-.PHONY : RNG.cpp.o
+rng/Normal-rng/Normal_BM_RNG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_BM_RNG.cpp.o
+.PHONY : rng/Normal-rng/Normal_BM_RNG.cpp.o
 
-RNG.i: RNG.cpp.i
-.PHONY : RNG.i
+rng/Normal-rng/Normal_BM_RNG.i: rng/Normal-rng/Normal_BM_RNG.cpp.i
+.PHONY : rng/Normal-rng/Normal_BM_RNG.i
 
 # target to preprocess a source file
-RNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/RNG.cpp.i
-.PHONY : RNG.cpp.i
+rng/Normal-rng/Normal_BM_RNG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_BM_RNG.cpp.i
+.PHONY : rng/Normal-rng/Normal_BM_RNG.cpp.i
 
-RNG.s: RNG.cpp.s
-.PHONY : RNG.s
+rng/Normal-rng/Normal_BM_RNG.s: rng/Normal-rng/Normal_BM_RNG.cpp.s
+.PHONY : rng/Normal-rng/Normal_BM_RNG.s
 
 # target to generate assembly for a file
-RNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/RNG.cpp.s
-.PHONY : RNG.cpp.s
+rng/Normal-rng/Normal_BM_RNG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_BM_RNG.cpp.s
+.PHONY : rng/Normal-rng/Normal_BM_RNG.cpp.s
 
-UniformRNG.o: UniformRNG.cpp.o
-.PHONY : UniformRNG.o
+rng/Normal-rng/Normal_IT_RNG.o: rng/Normal-rng/Normal_IT_RNG.cpp.o
+.PHONY : rng/Normal-rng/Normal_IT_RNG.o
 
 # target to build an object file
-UniformRNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/UniformRNG.cpp.o
-.PHONY : UniformRNG.cpp.o
+rng/Normal-rng/Normal_IT_RNG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_IT_RNG.cpp.o
+.PHONY : rng/Normal-rng/Normal_IT_RNG.cpp.o
 
-UniformRNG.i: UniformRNG.cpp.i
-.PHONY : UniformRNG.i
+rng/Normal-rng/Normal_IT_RNG.i: rng/Normal-rng/Normal_IT_RNG.cpp.i
+.PHONY : rng/Normal-rng/Normal_IT_RNG.i
 
 # target to preprocess a source file
-UniformRNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/UniformRNG.cpp.i
-.PHONY : UniformRNG.cpp.i
+rng/Normal-rng/Normal_IT_RNG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_IT_RNG.cpp.i
+.PHONY : rng/Normal-rng/Normal_IT_RNG.cpp.i
 
-UniformRNG.s: UniformRNG.cpp.s
-.PHONY : UniformRNG.s
+rng/Normal-rng/Normal_IT_RNG.s: rng/Normal-rng/Normal_IT_RNG.cpp.s
+.PHONY : rng/Normal-rng/Normal_IT_RNG.s
 
 # target to generate assembly for a file
-UniformRNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/UniformRNG.cpp.s
-.PHONY : UniformRNG.cpp.s
+rng/Normal-rng/Normal_IT_RNG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Normal-rng/Normal_IT_RNG.cpp.s
+.PHONY : rng/Normal-rng/Normal_IT_RNG.cpp.s
 
-test.o: test.cpp.o
-.PHONY : test.o
+rng/RNG.o: rng/RNG.cpp.o
+.PHONY : rng/RNG.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
+rng/RNG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/RNG.cpp.o
+.PHONY : rng/RNG.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+rng/RNG.i: rng/RNG.cpp.i
+.PHONY : rng/RNG.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+rng/RNG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/RNG.cpp.i
+.PHONY : rng/RNG.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+rng/RNG.s: rng/RNG.cpp.s
+.PHONY : rng/RNG.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+rng/RNG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/RNG.cpp.s
+.PHONY : rng/RNG.cpp.s
+
+rng/Uniform-rng/UniformRNG.o: rng/Uniform-rng/UniformRNG.cpp.o
+.PHONY : rng/Uniform-rng/UniformRNG.o
+
+# target to build an object file
+rng/Uniform-rng/UniformRNG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Uniform-rng/UniformRNG.cpp.o
+.PHONY : rng/Uniform-rng/UniformRNG.cpp.o
+
+rng/Uniform-rng/UniformRNG.i: rng/Uniform-rng/UniformRNG.cpp.i
+.PHONY : rng/Uniform-rng/UniformRNG.i
+
+# target to preprocess a source file
+rng/Uniform-rng/UniformRNG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Uniform-rng/UniformRNG.cpp.i
+.PHONY : rng/Uniform-rng/UniformRNG.cpp.i
+
+rng/Uniform-rng/UniformRNG.s: rng/Uniform-rng/UniformRNG.cpp.s
+.PHONY : rng/Uniform-rng/UniformRNG.s
+
+# target to generate assembly for a file
+rng/Uniform-rng/UniformRNG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/rng/Uniform-rng/UniformRNG.cpp.s
+.PHONY : rng/Uniform-rng/UniformRNG.cpp.s
 
 # Help Target
 help:
@@ -281,25 +281,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test"
-	@echo "... NormalRNG.o"
-	@echo "... NormalRNG.i"
-	@echo "... NormalRNG.s"
-	@echo "... Normal_BM_RNG.o"
-	@echo "... Normal_BM_RNG.i"
-	@echo "... Normal_BM_RNG.s"
-	@echo "... Normal_IT_RNG.o"
-	@echo "... Normal_IT_RNG.i"
-	@echo "... Normal_IT_RNG.s"
-	@echo "... RNG.o"
-	@echo "... RNG.i"
-	@echo "... RNG.s"
-	@echo "... UniformRNG.o"
-	@echo "... UniformRNG.i"
-	@echo "... UniformRNG.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... rng/Normal-rng/NormalRNG.o"
+	@echo "... rng/Normal-rng/NormalRNG.i"
+	@echo "... rng/Normal-rng/NormalRNG.s"
+	@echo "... rng/Normal-rng/Normal_BM_RNG.o"
+	@echo "... rng/Normal-rng/Normal_BM_RNG.i"
+	@echo "... rng/Normal-rng/Normal_BM_RNG.s"
+	@echo "... rng/Normal-rng/Normal_IT_RNG.o"
+	@echo "... rng/Normal-rng/Normal_IT_RNG.i"
+	@echo "... rng/Normal-rng/Normal_IT_RNG.s"
+	@echo "... rng/RNG.o"
+	@echo "... rng/RNG.i"
+	@echo "... rng/RNG.s"
+	@echo "... rng/Uniform-rng/UniformRNG.o"
+	@echo "... rng/Uniform-rng/UniformRNG.i"
+	@echo "... rng/Uniform-rng/UniformRNG.s"
 .PHONY : help
 
 

@@ -5,8 +5,9 @@ project(pcsc_project)
 add_subdirectory(boost-math)
 
 # Add your source files
-add_executable(test
-        test.cpp
+add_executable(main
+        main.cpp
+        Tests/test.h
         rng/RNG.h
         rng/RNG.cpp
         rng/Uniform-rng/UniformRNG.h
@@ -20,10 +21,10 @@ add_executable(test
 )
 
 # Link against Boost Math
-target_link_libraries(test PRIVATE boost_math)
+target_link_libraries(main PRIVATE boost_math)
 
 # If you have Google Test available, uncomment the following lines
 find_package(GTest QUIET)
 if(GTest_FOUND)
-    target_link_libraries(test PRIVATE GTest::Main GTest::GTest)
+    target_link_libraries(main PRIVATE GTest::Main GTest::GTest)
 endif()
