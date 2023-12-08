@@ -1,10 +1,10 @@
 /*
- * exercise-template.cpp
+ * template.cpp
  *
+ * A template of the code
  *
- *
- * Created on: Nov 8, 2023
- * Author: Jiaye Wei <jiaye.wei@epfl.ch>
+ * Created on: Nov 26, 2023
+ *      Author: Jiaye Wei <jiaye.wei@epfl.ch>
  */
 
 #include <iostream>

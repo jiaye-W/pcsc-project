@@ -1,10 +1,5 @@
-#add_subdirectory(week1/code_snippets)
-#add_subdirectory(week2/code_snippets)
-#add_subdirectory(week3/code_snippets)
-#add_subdirectory(week4/code_snippets)
-#add_subdirectory(week5/code_snippets)
-#add_subdirectory(week6/code_snippets)
-#add_subdirectory(week7/code_snippets)
-#add_subdirectory(week8/code_snippets)
-#add_subdirectory(week9/code_snippets)
-add_subdirectory(week10/code_snippets)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+# The next lines represent a list of all the executables in the folder (chapter)
+# There is typically one executable per exercise.
+# As you solve exercises, you need to add them here.
+# The syntax is add_executable(executable_name source_file_name)
