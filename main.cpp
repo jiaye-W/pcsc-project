@@ -18,51 +18,79 @@
 
 #include "src/functions/VectorFunction.hpp"
 
+void print_vector(std::vector<double> &v) {
+    for (double x : v)
+        std::cout << x << " ";
+    std::cout << std::endl;
+}
 
 int main(int argc, char* argv[])
 {
-    // Ask the user
+    // Introduction
     std::cout << "Hello! This is an application of our Monte-Carlo project.\n" << std::endl;
 
     std::cout << "Our application contains the following functionalities: " << std::endl;
     std::cout << "1. Compute expected value" << std::endl;
     std::cout << "2. Compute statistical moments" << std::endl;
     std::cout << "3. Verification of the CLT \n" << std::endl;
+    int numberOfFunctionalities = 3;
 
-    std::cout << "Enter your goal with a number:" << std::endl;
-    int indexTask;
-    std::cin >> indexTask;
+    // Ask user for command
+    int userTask;
+    while (true) {
+        std::cout << "Enter the corresponding integer of your wish: " << std::endl;
 
-    switch (indexTask)
+        // Try to get user input
+        std::cin >> userTask;
+
+        // Check if the input was an integer
+        if (std::cin.fail() || userTask < 1 || userTask > numberOfFunctionalities) {
+            std::cin.clear();  // Clear the error flag
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Discard invalid input
+            std::cout << "Invalid input. Please enter a valid integer." << std::endl;
+        } else {
+            // Input was an integer, break out of the loop
+            break;
+        }
+    }
+
+    switch (userTask)
     {
-        case 1:
+        case 1: // Compute expected value
         {
-            // Task Compute expected value
-            std::cout << "Great! You are directed to task 1: Compute expected value" << std::endl;
+            std::cout << "Great! You are directed to task 1: Compute expected value." << std::endl;
+
         }
 
-        case 2:
+        case 2: // Compute statistical moments
         {
-            // Compute statistical moments
-            std::cout << "Enter the order of the moments: \n" << std::endl;
+            std::cout << "Great! You are directed to task 2: Compute statistical moments." << std::endl;
+            std::cout << "Please enter the order of the moments: \n" << std::endl;
             int order;
             std::cin >> order;
 
             StatisticalMoments moments = StatisticalMoments(order);
 
-            //
+            // Create a pointer to RNG (not specified yet)
+            RNG* pRNG;
 
-            UniformRNG uniformRng = UniformRNG();
-
+            // Ask user for the type of RNG they want to use.
+            std::cout << "Please specify the random number generator: " << std::endl;
+            pRNG = new UniformRNG;
+            std::cout << "Please specify the seed you want to use for generating samples: " << std::endl;
             std::cout << "Please specify the seed you want to use for generating samples: " << std::endl;
             int seed;
             std::cin >> seed;
 
-            uniformRng.SetSeed(seed);
-            int numberOfSamples = 10;
+            pRNG->SetSeed(seed);
 
-            moments.Compute(uniformRng, numberOfSamples);
+            std::cout << "Please specify the number of samples used for computation: " << std::endl;
+            int numberOfSamples;
+            std::cin >> numberOfSamples;
 
+            // Compute
+            auto v = moments.Compute(*pRNG, numberOfSamples);
+            print_vector(v);
         }
 
     }
