@@ -1,6 +1,3 @@
 [submodule "boost-math"]
-	path = boost-math
+	path = lib/boost-math
 	url = https://github.com/boostorg/math
-[submodule "eigen"]
-	path = eigen
-	url = https://gitlab.com/libeigen/eigen

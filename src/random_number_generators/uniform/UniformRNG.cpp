@@ -11,11 +11,6 @@
 
 UniformRNG::UniformRNG() {}
 
-UniformRNG::UniformRNG(int seed)
-{
-    SetSeed(seed);
-}
-
 UniformRNG::~UniformRNG() {}
 
 // Main method: generate uniform sample(s)

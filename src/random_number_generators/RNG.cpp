@@ -28,7 +28,7 @@ RNG::RNG(const RNG &rng)
     mSeed = rng.mSeed;
 }
 
-
+RNG::~RNG() {}
 
 // Get methods
 int RNG::GetSeed() const { return mSeed; }

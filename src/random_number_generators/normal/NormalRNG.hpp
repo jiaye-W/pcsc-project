@@ -18,7 +18,7 @@ public:
     NormalRNG();
     ~NormalRNG();
 
-    virtual std::vector<double> GenerateSamples(int numberOfSamples) = 0;
+    std::vector<double> GenerateSamples(int numberOfSamples) override = 0;
 
     // Get methods
     double GetMean() const;

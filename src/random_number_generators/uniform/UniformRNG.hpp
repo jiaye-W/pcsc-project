@@ -16,12 +16,10 @@ class UniformRNG : public RNG
 public:
     // Constructor and destructor
     UniformRNG();
-    explicit UniformRNG(int seed);
     ~UniformRNG();
 
     // Other public methods
     std::vector<double> GenerateSamples(int numberOfSamples) override;
-
 
 private:
     unsigned int mModulus = 1e7;

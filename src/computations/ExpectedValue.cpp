@@ -27,6 +27,10 @@ std::vector<T> operator+(const std::vector<T>& a, const std::vector<T>& b)
     return result;
 }
 
+ExpectedValue::ExpectedValue() {}
+
+ExpectedValue::~ExpectedValue() {}
+
 ExpectedValue::ExpectedValue(VectorFunction vectorFunction)
 {
     mVectorFunction = vectorFunction;

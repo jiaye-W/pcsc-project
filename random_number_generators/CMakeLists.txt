@@ -1,2 +1,0 @@
-add_subdirectory(normal)
-add_subdirectory(uniform)
