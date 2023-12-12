@@ -1,0 +1,5 @@
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+add_subdirectory(computations)
+add_subdirectory(functions)
+add_subdirectory(random_number_generators)
