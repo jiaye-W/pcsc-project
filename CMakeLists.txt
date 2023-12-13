@@ -1,30 +1,44 @@
 cmake_minimum_required(VERSION 3.22)
 project(pcsc_project)
 
-# Add Boost Math as a subdirectory
-add_subdirectory(boost-math)
+# Add Boost as a submodule
+add_subdirectory(external/boost)
 
-# Add your source files
+# Add Google Test as a submodule
+add_subdirectory(external/googletest)
+
+# Set the path to your Boost installation directory
+set(BOOST_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/external/boost")
+
+# Include boost as a subdirectory
+find_package(Boost REQUIRED COMPONENTS iostreams system filesystem)
+
+# Main executable
 add_executable(main
         main.cpp
         Tests/test.h
         rng/RNG.h
-        rng/RNG.cpp
-        rng/Uniform-rng/UniformRNG.h
-        rng/Uniform-rng/UniformRNG.cpp
-        rng/Normal-rng/NormalRNG.h
-        rng/Normal-rng/NormalRNG.cpp
-        rng/Normal-rng/Normal_BM_RNG.h
-        rng/Normal-rng/Normal_BM_RNG.cpp
-        rng/Normal-rng/Normal_IT_RNG.h
-        rng/Normal-rng/Normal_IT_RNG.cpp
+        src/rng/RNG.cpp
+        src/rng/Uniform-rng/UniformRNG.h
+        src/rng/Uniform-rng/UniformRNG.cpp
+        src/rng/Normal-rng/NormalRNG.h
+        src/rng/Normal-rng/NormalRNG.cpp
+        src/rng/Normal-rng/Normal_BM_RNG.h
+        src/rng/Normal-rng/Normal_BM_RNG.cpp
+        src/rng/Normal-rng/Normal_IT_RNG.h
+        src/rng/Normal-rng/Normal_IT_RNG.cpp
+        src/graph/graph.h
+        src/graph/graph.cpp
+        src/Computations/ExpectedValue.h
+        src/Computations/StatisticalMoments.cpp
+        src/Computations/StatisticalMoments.h
+        src/Computations/ExpectedValue.cpp
+        src/Functions/VectorFunction.h
+        src/Functions/VectorFunction.cpp
 )
 
-# Link against Boost Math
-target_link_libraries(main PRIVATE boost_math)
+# Include Boost headers
+target_include_directories(main PRIVATE ${CMAKE_CURRENT_SOURCE_DIR} ${Boost_INCLUDE_DIRS})
 
-# If you have Google Test available, uncomment the following lines
-find_package(GTest QUIET)
-if(GTest_FOUND)
-    target_link_libraries(main PRIVATE GTest::Main GTest::GTest)
-endif()
+# Link against Google Test and Boost libraries
+target_link_libraries(main PRIVATE gtest gtest_main Boost::iostreams Boost::system Boost::filesystem Boost::boost)

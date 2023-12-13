@@ -1,0 +1,43 @@
+\hypertarget{classNormalRNG}{}\doxysection{Normal\+RNG Class Reference}
+\label{classNormalRNG}\index{NormalRNG@{NormalRNG}}
+
+
+Inheritance diagram for Normal\+RNG\+:
+% FIG 0
+
+
+Collaboration diagram for Normal\+RNG\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNormalRNG_a63e754d0c06fbf7a911d41c4121110e3}\label{classNormalRNG_a63e754d0c06fbf7a911d41c4121110e3}} 
+{\bfseries Normal\+RNG} (double mean=0, double sigma=1)
+\item 
+\mbox{\Hypertarget{classNormalRNG_a99d55205b3e071defdb0da4dfe24a57a}\label{classNormalRNG_a99d55205b3e071defdb0da4dfe24a57a}} 
+{\bfseries Normal\+RNG} (double mean, double sigma, int seed)
+\item 
+\mbox{\Hypertarget{classNormalRNG_a77564ff1146b7057f27bd4d422716032}\label{classNormalRNG_a77564ff1146b7057f27bd4d422716032}} 
+void {\bfseries Set\+Mean} (double mean)
+\item 
+\mbox{\Hypertarget{classNormalRNG_aef67e37b818eb51dc1720b4cc9d0d747}\label{classNormalRNG_aef67e37b818eb51dc1720b4cc9d0d747}} 
+void {\bfseries Set\+Sigma} (double sigma)
+\item 
+\mbox{\Hypertarget{classNormalRNG_a4d33593c8cc89b9f7018ffb236c6d414}\label{classNormalRNG_a4d33593c8cc89b9f7018ffb236c6d414}} 
+double {\bfseries Get\+Mean} () const
+\item 
+\mbox{\Hypertarget{classNormalRNG_a63a4aab303e898d9c3602f186a535ad1}\label{classNormalRNG_a63a4aab303e898d9c3602f186a535ad1}} 
+double {\bfseries Get\+Sigma} () const
+\item 
+\mbox{\Hypertarget{classNormalRNG_ab0dd756b55be84b2808ee66426947632}\label{classNormalRNG_ab0dd756b55be84b2808ee66426947632}} 
+\mbox{\hyperlink{classUniformRNG}{Uniform\+RNG}} {\bfseries Get\+Uniform\+RNG} ()
+\item 
+\mbox{\Hypertarget{classNormalRNG_a7900cc5bf09109c209bd3361bc37aabf}\label{classNormalRNG_a7900cc5bf09109c209bd3361bc37aabf}} 
+virtual std\+::vector$<$ double $>$ {\bfseries Generate\+Sample} (int size)=0
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/rng/\+Normal-\/rng/Normal\+RNG.\+h\item 
+src/rng/\+Normal-\/rng/Normal\+RNG.\+cpp\end{DoxyCompactItemize}

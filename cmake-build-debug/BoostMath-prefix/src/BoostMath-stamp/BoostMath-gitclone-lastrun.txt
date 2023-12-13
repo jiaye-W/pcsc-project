@@ -1,3 +1,0 @@
-repository='https://github.com/boostorg/math.git'
-module=''
-tag='origin'

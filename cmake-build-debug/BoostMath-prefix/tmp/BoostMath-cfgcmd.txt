@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-DBOOST_ROOT=/mnt/d/EPFL/GitHub/pcsc_project/cmake-build-debug/external/boost;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
