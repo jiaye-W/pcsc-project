@@ -1,4 +1,4 @@
-#include "Tests/test.h"
+#include "tests/test.h"
 #include "src/graph/graph.h"
 #include "lib/gnuplot-iostream-master/gnuplot-iostream.h"
 #include "src/rng/Uniform-rng/UniformRNG.h"
