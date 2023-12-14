@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.22)
 project(pcsc_project)
 
 # Add Boost as a submodule
-add_subdirectory(external/boost)
+add_subdirectory(external/boost EXCLUDE_FROM_ALL)
 
 # Add Google Test as a submodule
 add_subdirectory(external/googletest)
 
-# Set the path to your Boost installation directory
-set(BOOST_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/external/boost")
+# Find and use Boost components
+find_package(Boost REQUIRED COMPONENTS iostreams filesystem)
 
 # Main executable
 add_executable(main
@@ -34,8 +34,8 @@ add_executable(main
         src/Functions/VectorFunction.cpp
 )
 
-# Use target_include_directories for Boost
-target_include_directories(main PRIVATE ${Boost_INCLUDE_DIRS})
+# Include Boost headers and additional directories
+target_include_directories(main PRIVATE lib/gnuplot-iostream-master ${Boost_LIBRARIES})
 
 # Link against Google Test and Boost libraries
-target_link_libraries(main PRIVATE gtest gtest_main external/boost/iostreams external/boost/system external/boost/filesystem )
+target_link_libraries(main main PRIVATE gtest gtest_main ${Boost_LIBRARIES})
