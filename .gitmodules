@@ -1,3 +1,15 @@
 [submodule "external/googletest"]
 	path = external/googletest
 	url = https://github.com/google/googletest.git
+[submodule "external/boost-math"]
+	path = external/boost-math
+	url = https://github.com/boostorg/math.git
+[submodule "external/boost-iostreams"]
+	path = external/boost-iostreams
+	url = https://github.com/boostorg/iostreams.git
+[submodule "external/boost-assert"]
+	path = external/boost-assert
+	url = https://github.com/boostorg/assert.git
+[submodule "cmake-build-debug/external/boost"]
+	path = cmake-build-debug/external/boost
+	url = https://github.com/boostorg/boost.git
