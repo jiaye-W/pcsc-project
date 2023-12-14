@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.26.4)
 project(pcsc_project)
 
-add_subdirectory(external/boost)
+
+add_subdirectory(boost)
 add_subdirectory(external/googletest)
 
 # Main executable
@@ -34,5 +35,6 @@ add_executable(main
 )
 
 # Link against Google Test and Boost libraries
-target_link_libraries(main PRIVATE gtest gtest_main)
-target_link_libraries(main PRIVATE external/boost)
+target_include_directories(main PRIVATE gnuplot-iostream)
+
+target_link_libraries(main PRIVATE gtest gtest_main Boost::iostreams Boost::filesystem Boost::math)

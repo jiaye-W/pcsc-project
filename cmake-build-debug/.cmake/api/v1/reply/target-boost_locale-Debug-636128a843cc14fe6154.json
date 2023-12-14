@@ -1,0 +1,1001 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "boost/libs/locale/libboost_locale.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"boost/libs/locale/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTAINER_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTAINER_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_STATIC_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_LOCALE_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_LOCALE_NO_WINAPI_BACKEND=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_LOCALE_SOURCE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_LOCALE_STATIC_LINK"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_LOCALE_WITH_ICONV=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_STATIC_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_USE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/locale/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/locale/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/iterator/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/concept_check/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/detail/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/function_types/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/mpl/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/predef/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/utility/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/io/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fusion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/describe/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/mp11/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/tuple/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/typeof/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/functional/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/function/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/bind/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/optional/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/move/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/thread/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/atomic/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/chrono/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/integer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/ratio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/variant2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/winapi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/container/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/intrusive/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/date_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/algorithm/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/array/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/range/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/regex/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/unordered/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/lexical_cast/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/numeric/conversion/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/tokenizer/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				19,
+				20,
+				59,
+				60,
+				61,
+				62,
+				63,
+				66,
+				67,
+				68,
+				69,
+				70,
+				72
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "boost_atomic::@42f15e9ff3e79e033b70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_chrono::@82ff546b39cd3054e0b1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_container::@3d180fe44b418caae71d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_date_time::@2f1ce3b579f409916b72"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_exception::@c961ecb5624d15834156"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_thread::@6e08afa19544ca50a13e"
+		}
+	],
+	"id" : "boost_locale::@de33061f096aeb098aab",
+	"name" : "boost_locale",
+	"nameOnDisk" : "libboost_locale.a",
+	"paths" : 
+	{
+		"build" : "boost/libs/locale",
+		"source" : "boost/libs/locale"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "sources\\encoding",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "sources\\shared",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "sources\\util",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				57,
+				72,
+				73
+			]
+		},
+		{
+			"name" : "headers",
+			"sourceIndexes" : 
+			[
+				24,
+				25,
+				31,
+				32,
+				33,
+				34,
+				35,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
+			]
+		},
+		{
+			"name" : "headers\\boundary",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "headers\\detail",
+			"sourceIndexes" : 
+			[
+				36,
+				37,
+				38
+			]
+		},
+		{
+			"name" : "headers\\util",
+			"sourceIndexes" : 
+			[
+				55,
+				56
+			]
+		},
+		{
+			"name" : "sources\\std",
+			"sourceIndexes" : 
+			[
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64
+			]
+		},
+		{
+			"name" : "sources\\posix",
+			"sourceIndexes" : 
+			[
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/encoding/codepage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/encoding/iconv_converter.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/encoding/uconv_converter.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/encoding/wconv_converter.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/date_time.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/format.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/formatting.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/generator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/iconv_codecvt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/shared/iconv_codecvt.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/ids.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/localization_backend.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/message.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/shared/mo_lambda.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/codecvt_converter.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/default_locale.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/encoding.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/util/encoding.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/util/foreach_char.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/info.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/locale_data.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/util/make_std_unique.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/util/numeric.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/src/boost/locale/util/timezone.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary/boundary_point.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary/facets.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary/index.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary/segment.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/boundary/types.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/collator.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/config.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/conversion.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/date_time.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/date_time_facet.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/detail/encoding.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/detail/facet_id.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/detail/is_supported_char.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/encoding.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/encoding_errors.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/encoding_utf.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/format.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/formatting.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/generator.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/generic_codecvt.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/gnu_gettext.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/hold_ptr.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/info.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/localization_backend.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/message.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/time_zone.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/utf.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/utf8_codecvt.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/util.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/util/locale_data.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "boost/libs/locale/include/boost/locale/util/string.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 9,
+			"path" : "boost/libs/locale/src/boost/locale/util/iconv.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "boost/libs/locale/src/boost/locale/std/all_generator.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/std/codecvt.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/std/collate.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/std/converter.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/std/numeric.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/std/std_backend.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 10,
+			"path" : "boost/libs/locale/src/boost/locale/std/std_backend.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 11,
+			"path" : "boost/libs/locale/src/boost/locale/posix/all_generator.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/posix/codecvt.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/posix/collate.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/posix/converter.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/posix/numeric.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/posix/posix_backend.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 11,
+			"path" : "boost/libs/locale/src/boost/locale/posix/posix_backend.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/locale/src/boost/locale/util/gregorian.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 12,
+			"path" : "boost/libs/locale/src/boost/locale/util/gregorian.hpp",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

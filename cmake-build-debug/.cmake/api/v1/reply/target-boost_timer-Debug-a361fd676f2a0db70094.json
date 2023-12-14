@@ -1,0 +1,139 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "boost/libs/timer/libboost_timer.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"boost/libs/timer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_TIMER_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_TIMER_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_TIMER_STATIC_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/timer/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/io/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/predef/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "boost_timer::@b0570c2feb22a0d10ced",
+	"name" : "boost_timer",
+	"nameOnDisk" : "libboost_timer.a",
+	"paths" : 
+	{
+		"build" : "boost/libs/timer",
+		"source" : "boost/libs/timer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/timer/src/auto_timers_construction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/timer/src/cpu_timer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

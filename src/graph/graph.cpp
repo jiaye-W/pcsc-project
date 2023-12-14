@@ -3,10 +3,12 @@
 //
 
 #include "graph.h"
+#include <iostream>
 #include <vector>
 #include <cmath>
 #include <tuple>
 #include <algorithm>
+#include <type_traits>
 #include <numeric>
 
 

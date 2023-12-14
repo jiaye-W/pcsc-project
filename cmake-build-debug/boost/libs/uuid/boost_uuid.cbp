@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="boost_uuid"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\boost\;CMake Files\boost\tools\;CMake Files\boost\tools\cmake\;CMake Files\boost\tools\cmake\include\;CMake Files\boost\libs\;CMake Files\boost\libs\accumulators\;CMake Files\boost\libs\algorithm\;CMake Files\boost\libs\align\;CMake Files\boost\libs\any\;CMake Files\boost\libs\array\;CMake Files\boost\libs\asio\;CMake Files\boost\libs\assert\;CMake Files\boost\libs\assign\;CMake Files\boost\libs\atomic\;CMake Files\boost\libs\atomic\cmake\;CMake Files\boost\libs\beast\;CMake Files\boost\libs\bimap\;CMake Files\boost\libs\bind\;CMake Files\boost\libs\callable_traits\;CMake Files\boost\libs\chrono\;CMake Files\boost\libs\circular_buffer\;CMake Files\boost\libs\cobalt\;CMake Files\boost\libs\cobalt\cmake\;CMake Files\boost\libs\compat\;CMake Files\boost\libs\compatibility\;CMake Files\boost\libs\compute\;CMake Files\boost\libs\concept_check\;CMake Files\boost\libs\config\;CMake Files\boost\libs\container\;CMake Files\boost\libs\container_hash\;CMake Files\boost\libs\context\;CMake Files\boost\libs\contract\;CMake Files\boost\libs\conversion\;CMake Files\boost\libs\convert\;CMake Files\boost\libs\core\;CMake Files\boost\libs\coroutine\;CMake Files\boost\libs\coroutine2\;CMake Files\boost\libs\crc\;CMake Files\boost\libs\date_time\;CMake Files\boost\libs\describe\;CMake Files\boost\libs\detail\;CMake Files\boost\libs\dll\;CMake Files\boost\libs\dynamic_bitset\;CMake Files\boost\libs\endian\;CMake Files\boost\libs\exception\;CMake Files\boost\libs\fiber\;CMake Files\boost\libs\filesystem\;CMake Files\boost\libs\filesystem\cmake\;CMake Files\boost\libs\flyweight\;CMake Files\boost\libs\foreach\;CMake Files\boost\libs\format\;CMake Files\boost\libs\function\;CMake Files\boost\libs\function_types\;CMake Files\boost\libs\functional\;CMake Files\boost\libs\fusion\;CMake Files\boost\libs\geometry\;CMake Files\boost\libs\gil\;CMake Files\boost\libs\graph\;CMake Files\boost\libs\hana\;CMake Files\boost\libs\headers\;CMake Files\boost\libs\heap\;CMake Files\boost\libs\histogram\;CMake Files\boost\libs\hof\;CMake Files\boost\libs\icl\;CMake Files\boost\libs\integer\;CMake Files\boost\libs\interprocess\;CMake Files\boost\libs\intrusive\;CMake Files\boost\libs\io\;CMake Files\boost\libs\iostreams\;CMake Files\boost\libs\iterator\;CMake Files\boost\libs\json\;CMake Files\boost\libs\lambda\;CMake Files\boost\libs\lambda2\;CMake Files\boost\libs\leaf\;CMake Files\boost\libs\lexical_cast\;CMake Files\boost\libs\local_function\;CMake Files\boost\libs\locale\;CMake Files\boost\libs\lockfree\;CMake Files\boost\libs\log\;CMake Files\boost\libs\log\cmake\;CMake Files\boost\libs\logic\;CMake Files\boost\libs\math\;CMake Files\boost\libs\metaparse\;CMake Files\boost\libs\move\;CMake Files\boost\libs\mp11\;CMake Files\boost\libs\mpl\;CMake Files\boost\libs\msm\;CMake Files\boost\libs\multi_array\;CMake Files\boost\libs\multi_index\;CMake Files\boost\libs\multiprecision\;CMake Files\boost\libs\mysql\;CMake Files\boost\libs\nowide\;CMake Files\boost\libs\nowide\cmake\;CMake Files\boost\libs\numeric\;CMake Files\boost\libs\numeric\conversion\;CMake Files\boost\libs\numeric\interval\;CMake Files\boost\libs\numeric\odeint\;CMake Files\boost\libs\numeric\ublas\;CMake Files\boost\libs\optional\;CMake Files\boost\libs\outcome\;CMake Files\boost\libs\parameter\;CMake Files\boost\libs\pfr\;CMake Files\boost\libs\phoenix\;CMake Files\boost\libs\poly_collection\;CMake Files\boost\libs\polygon\;CMake Files\boost\libs\pool\;CMake Files\boost\libs\predef\;CMake Files\boost\libs\preprocessor\;CMake Files\boost\libs\process\;CMake Files\boost\libs\program_options\;CMake Files\boost\libs\property_map\;CMake Files\boost\libs\property_tree\;CMake Files\boost\libs\proto\;CMake Files\boost\libs\ptr_container\;CMake Files\boost\libs\qvm\;CMake Files\boost\libs\random\;CMake Files\boost\libs\range\;CMake Files\boost\libs\ratio\;CMake Files\boost\libs\rational\;CMake Files\boost\libs\redis\;CMake Files\boost\libs\regex\;CMake Files\boost\libs\safe_numerics\;CMake Files\boost\libs\scope_exit\;CMake Files\boost\libs\serialization\;CMake Files\boost\libs\signals2\;CMake Files\boost\libs\smart_ptr\;CMake Files\boost\libs\sort\;CMake Files\boost\libs\spirit\;CMake Files\boost\libs\stacktrace\;CMake Files\boost\libs\statechart\;CMake Files\boost\libs\static_assert\;CMake Files\boost\libs\static_string\;CMake Files\boost\libs\stl_interfaces\;CMake Files\boost\libs\system\;CMake Files\boost\libs\test\;CMake Files\boost\libs\thread\;CMake Files\boost\libs\throw_exception\;CMake Files\boost\libs\timer\;CMake Files\boost\libs\tokenizer\;CMake Files\boost\libs\tti\;CMake Files\boost\libs\tuple\;CMake Files\boost\libs\type_erasure\;CMake Files\boost\libs\type_index\;CMake Files\boost\libs\type_traits\;CMake Files\boost\libs\typeof\;CMake Files\boost\libs\units\;CMake Files\boost\libs\unordered\;CMake Files\boost\libs\url\;CMake Files\boost\libs\utility\;CMake Files\boost\libs\uuid\;CMake Files\boost\libs\variant\;CMake Files\boost\libs\variant2\;CMake Files\boost\libs\vmd\;CMake Files\boost\libs\wave\;CMake Files\boost\libs\winapi\;CMake Files\boost\libs\xpressive\;CMake Files\boost\libs\yap\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\zstd\;CMake Files\external\;CMake Files\external\googletest\;CMake Files\external\googletest\googlemock\;CMake Files\external\googletest\googlemock\cmake\;CMake Files\external\googletest\googletest\;CMake Files\external\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug/boost/libs/uuid"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug/boost/libs/uuid/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug/boost/libs/uuid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug/boost/libs/uuid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug/boost/libs/uuid/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/tools/cmake/include/BoostInstall.cmake">
+			<Option virtualFolder="CMake Files\boost\tools\cmake\include\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/tools/cmake/include/BoostMessage.cmake">
+			<Option virtualFolder="CMake Files\boost\tools\cmake\include\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/tools/cmake/include/BoostRoot.cmake">
+			<Option virtualFolder="CMake Files\boost\tools\cmake\include\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/accumulators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\accumulators\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\algorithm\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/align/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\align\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/any/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\any\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\array\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/asio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\asio\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/assert/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\assert\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/assign/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\assign\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/atomic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\atomic\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/atomic/cmake/BoostLibraryIncludes.cmake">
+			<Option virtualFolder="CMake Files\boost\libs\atomic\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/beast/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\beast\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/bimap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\bimap\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/bind/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\bind\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/callable_traits/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\callable_traits\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/chrono/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\chrono\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/circular_buffer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\circular_buffer\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/cobalt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\cobalt\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/cobalt/cmake/CheckRequirements.cmake">
+			<Option virtualFolder="CMake Files\boost\libs\cobalt\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/cobalt/cmake/concepts.cpp">
+			<Option virtualFolder="CMake Files\boost\libs\cobalt\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/cobalt/cmake/coroutine.cpp">
+			<Option virtualFolder="CMake Files\boost\libs\cobalt\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/cobalt/cmake/memory_resource.cpp">
+			<Option virtualFolder="CMake Files\boost\libs\cobalt\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/compat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\compat\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/compatibility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\compatibility\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/compute/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\compute\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/concept_check/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\concept_check\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/config/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\config\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\container\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/container_hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\container_hash\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/context/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\context\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/contract/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\contract\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/conversion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\conversion\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/convert/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\convert\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\core\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/coroutine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\coroutine\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/coroutine2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\coroutine2\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/crc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\crc\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/date_time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\date_time\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/describe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\describe\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/detail/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\detail\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/dll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\dll\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/dynamic_bitset/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\dynamic_bitset\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/endian/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\endian\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\exception\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fiber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\fiber\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/filesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\filesystem\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/filesystem/cmake/BoostLibraryIncludes.cmake">
+			<Option virtualFolder="CMake Files\boost\libs\filesystem\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/flyweight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\flyweight\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/foreach/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\foreach\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/format/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\format\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\function\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/function_types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\function_types\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/functional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\functional\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fusion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\fusion\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\geometry\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/gil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\gil\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\graph\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/hana/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\hana\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/headers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\headers\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\heap\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/histogram/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\histogram\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/hof/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\hof\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/icl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\icl\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/integer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\integer\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/interprocess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\interprocess\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/intrusive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\intrusive\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\io\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/iostreams/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\iostreams\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/iterator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\iterator\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\json\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/lambda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\lambda\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/lambda2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\lambda2\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/leaf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\leaf\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/lexical_cast/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\lexical_cast\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/local_function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\local_function\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/locale/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\locale\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/lockfree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\lockfree\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\log\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/log/cmake/BoostLibraryIncludes.cmake">
+			<Option virtualFolder="CMake Files\boost\libs\log\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/logic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\logic\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\math\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/metaparse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\metaparse\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/move/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\move\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/mp11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\mp11\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/mpl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\mpl\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/msm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\msm\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/multi_array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\multi_array\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/multi_index/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\multi_index\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/multiprecision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\multiprecision\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/mysql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\mysql\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/nowide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\nowide\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/nowide/cmake/BoostAddWarnings.cmake">
+			<Option virtualFolder="CMake Files\boost\libs\nowide\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/numeric/conversion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\numeric\conversion\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/numeric/interval/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\numeric\interval\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/numeric/odeint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\numeric\odeint\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/numeric/ublas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\numeric\ublas\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/optional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\optional\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/outcome/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\outcome\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/parameter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\parameter\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/pfr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\pfr\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/phoenix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\phoenix\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/poly_collection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\poly_collection\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/polygon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\polygon\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/pool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\pool\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/predef/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\predef\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/preprocessor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\preprocessor\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/process/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\process\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/program_options/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\program_options\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/property_map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\property_map\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/property_tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\property_tree\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/proto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\proto\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/ptr_container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\ptr_container\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/qvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\qvm\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/random/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\random\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/range/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\range\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/ratio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\ratio\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/rational/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\rational\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\redis\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/regex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\regex\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/safe_numerics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\safe_numerics\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/scope_exit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\scope_exit\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/serialization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\serialization\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/signals2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\signals2\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/smart_ptr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\smart_ptr\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\sort\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/spirit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\spirit\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/stacktrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\stacktrace\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/statechart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\statechart\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/static_assert/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\static_assert\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/static_string/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\static_string\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/stl_interfaces/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\stl_interfaces\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\system\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\test\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\thread\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/throw_exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\throw_exception\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/timer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\timer\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/tokenizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\tokenizer\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/tti/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\tti\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/tuple/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\tuple\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/type_erasure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\type_erasure\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/type_index/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\type_index\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/type_traits/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\type_traits\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/typeof/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\typeof\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/units/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\units\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/unordered/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\unordered\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/url/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\url\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\utility\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/uuid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\uuid\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/variant/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\variant\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/variant2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\variant2\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/vmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\vmd\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/wave/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\wave\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/winapi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\winapi\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/xpressive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\xpressive\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/boost/libs/yap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost\libs\yap\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/../../../../opt/homebrew/lib/cmake/zstd/zstdConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\zstd\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/../../../../opt/homebrew/lib/cmake/zstd/zstdConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\zstd\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/../../../../opt/homebrew/lib/cmake/zstd/zstdTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\zstd\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/../../../../opt/homebrew/lib/cmake/zstd/zstdTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\zstd\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\external\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\external\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\external\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\external\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Desktop/pcsc-project/external/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\external\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
