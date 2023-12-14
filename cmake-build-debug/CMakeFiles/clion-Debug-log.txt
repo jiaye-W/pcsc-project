@@ -1,8 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/jiayewei927/Desktop/pcsc-project -B /Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug
-CMake Error at external/boost/CMakeLists.txt:20 (include):
-  include could not find requested file:
-
-    BoostRoot
-
-
--- Configuring incomplete, errors occurred!
