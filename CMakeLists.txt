@@ -35,7 +35,7 @@ add_executable(main
 )
 
 # Include Boost headers and additional directories
-target_include_directories(main PRIVATE lib/gnuplot-iostream-master ${Boost_LIBRARIES})
+target_include_directories(main PRIVATE lib/gnuplot-iostream-master ${Boost_INCLUDE_DIRS})
 
 # Link against Google Test and Boost libraries
-target_link_libraries(main main PRIVATE gtest gtest_main ${Boost_LIBRARIES})
+target_link_libraries(main PRIVATE gtest gtest_main ${Boost_LIBRARIES})
