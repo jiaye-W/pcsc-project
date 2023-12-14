@@ -1,6 +1,4 @@
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.26.4)
 project(pcsc_project)
 
 add_subdirectory(external/boost)
@@ -10,7 +8,7 @@ add_subdirectory(external/googletest)
 add_executable(main
         main.cpp
 
-        tests/test.h
+        Tests/test.h
 
         src/rng/RNG.h
         src/rng/RNG.cpp
