@@ -11,18 +11,28 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-CMake Error at external/boost/CMakeLists.txt:20 (include):
-  include could not find requested file:
+CMake Error at CMakeLists.txt:5 (add_subdirectory):
+  add_subdirectory given source "external/boost-math" which is not an
+  existing directory.
 
-    BoostRoot
+
+CMake Error at CMakeLists.txt:7 (add_subdirectory):
+  add_subdirectory given source "external/boost-iostreams" which is not an
+  existing directory.
 
 
-CMake Error at C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find Boost (missing: Boost_INCLUDE_DIR iostreams filesystem)
-Call Stack (most recent call first):
-  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
-  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindBoost.cmake:2378 (find_package_handle_standard_args)
-  CMakeLists.txt:11 (find_package)
+CMake Error at CMakeLists.txt:9 (add_subdirectory):
+  add_subdirectory given source "external/boost-assert" which is not an
+  existing directory.
+
+
+CMake Error at CMakeLists.txt:11 (add_subdirectory):
+  add_subdirectory given source "external/googletest" which is not an
+  existing directory.
 
 
 -- Configuring incomplete, errors occurred!
+
+Cannot get compiler information:
+	Cannot start process, the working directory 'D:\EPFL\GitHub\pcsc_project\cmake-build-debug\external\googletest\googlemock' does not exist
+	Cannot start process, the working directory 'D:\EPFL\GitHub\pcsc_project\cmake-build-debug\external\googletest\googletest' does not exist

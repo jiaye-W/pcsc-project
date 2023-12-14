@@ -2,13 +2,15 @@ cmake_minimum_required(VERSION 3.22)
 project(pcsc_project)
 
 # Add Boost as a submodule
-add_subdirectory(external/boost EXCLUDE_FROM_ALL)
+add_subdirectory(external/boost-math EXCLUDE_FROM_ALL)
 
+add_subdirectory(external/boost-iostreams EXCLUDE_FROM_ALL)
+
+add_subdirectory(external/boost-assert EXCLUDE_FROM_ALL)
 # Add Google Test as a submodule
 add_subdirectory(external/googletest)
 
-# Find and use Boost components
-find_package(Boost REQUIRED COMPONENTS iostreams filesystem)
+
 
 # Main executable
 add_executable(main
