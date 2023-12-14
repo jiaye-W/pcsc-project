@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jiayewei927/Desktop/pcsc-project/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/Computations/ExpectedValue.cpp" "CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.o" "gcc" "CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/Computations/StatisticalMoments.cpp" "CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.o" "gcc" "CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/Functions/VectorFunction.cpp" "CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.o" "gcc" "CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/graph/graph.cpp" "CMakeFiles/main.dir/src/graph/graph.cpp.o" "gcc" "CMakeFiles/main.dir/src/graph/graph.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/rng/Normal-rng/NormalRNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.o" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/rng/Normal-rng/Normal_BM_RNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.o" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/rng/Normal-rng/Normal_IT_RNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.o" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/rng/RNG.cpp" "CMakeFiles/main.dir/src/rng/RNG.cpp.o" "gcc" "CMakeFiles/main.dir/src/rng/RNG.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/src/rng/Uniform-rng/UniformRNG.cpp" "CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.o" "gcc" "CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.o.d"
+  "D:/EPFL/GitHub/pcsc-project-1/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/Computations/ExpectedValue.cpp" "CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/Computations/StatisticalMoments.cpp" "CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/Functions/VectorFunction.cpp" "CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/graph/graph.cpp" "CMakeFiles/main.dir/src/graph/graph.cpp.obj" "gcc" "CMakeFiles/main.dir/src/graph/graph.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/rng/Normal-rng/NormalRNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.obj" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/rng/Normal-rng/Normal_BM_RNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.obj" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/rng/Normal-rng/Normal_IT_RNG.cpp" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.obj" "gcc" "CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/rng/RNG.cpp" "CMakeFiles/main.dir/src/rng/RNG.cpp.obj" "gcc" "CMakeFiles/main.dir/src/rng/RNG.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/src/rng/Uniform-rng/UniformRNG.cpp" "CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.obj" "gcc" "CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

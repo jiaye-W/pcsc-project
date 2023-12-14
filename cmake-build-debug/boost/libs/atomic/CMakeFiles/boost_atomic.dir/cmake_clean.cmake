@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.o"
-  "CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.o.d"
-  "libboost_atomic.a"
-  "libboost_atomic.pdb"
+  "CMakeFiles/boost_atomic.dir/src/find_address_sse2.cpp.obj"
+  "CMakeFiles/boost_atomic.dir/src/find_address_sse2.cpp.obj.d"
+  "CMakeFiles/boost_atomic.dir/src/find_address_sse41.cpp.obj"
+  "CMakeFiles/boost_atomic.dir/src/find_address_sse41.cpp.obj.d"
+  "CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.obj"
+  "CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.obj.d"
+  "CMakeFiles/boost_atomic.dir/src/wait_on_address.cpp.obj"
+  "CMakeFiles/boost_atomic.dir/src/wait_on_address.cpp.obj.d"
+  "libboost_atomic-gcc13-mt-d-x64-1_84.a"
+  "libboost_atomic-gcc13-mt-d-x64-1_84.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

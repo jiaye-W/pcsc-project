@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/thread/src/future.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/future.cpp.o" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/future.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/thread/src/pthread/once.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/pthread/once.cpp.o" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/pthread/once.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/thread/src/pthread/thread.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/pthread/thread.cpp.o" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/pthread/thread.cpp.o.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/thread/src/future.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/future.cpp.obj" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/future.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/thread/src/win32/thread.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread.cpp.obj" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/thread/src/win32/thread_primitives.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread_primitives.cpp.obj" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread_primitives.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/thread/src/win32/tss_dll.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_dll.cpp.obj" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_dll.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/thread/src/win32/tss_pe.cpp" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_pe.cpp.obj" "gcc" "boost/libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_pe.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

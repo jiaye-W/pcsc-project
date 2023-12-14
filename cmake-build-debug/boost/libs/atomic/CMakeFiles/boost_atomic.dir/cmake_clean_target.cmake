@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libboost_atomic.a"
+  "libboost_atomic-gcc13-mt-d-x64-1_84.a"
 )

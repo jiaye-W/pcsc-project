@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+4a2ed7ce9e1a225690586ac91ca572e2 boost/libs/log/src/windows/simple_event_log.h

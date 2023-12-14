@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fiber/src/numa/algo/work_stealing.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/algo/work_stealing.cpp.o" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/algo/work_stealing.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fiber/src/numa/pin_thread.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/pin_thread.cpp.o" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/pin_thread.cpp.o.d"
-  "/Users/jiayewei927/Desktop/pcsc-project/boost/libs/fiber/src/numa/topology.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/topology.cpp.o" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/topology.cpp.o.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/fiber/src/numa/algo/work_stealing.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/algo/work_stealing.cpp.obj" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/algo/work_stealing.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/fiber/src/numa/windows/pin_thread.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/windows/pin_thread.cpp.obj" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/windows/pin_thread.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/boost/libs/fiber/src/numa/windows/topology.cpp" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/windows/topology.cpp.obj" "gcc" "boost/libs/fiber/CMakeFiles/boost_fiber_numa.dir/src/numa/windows/topology.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

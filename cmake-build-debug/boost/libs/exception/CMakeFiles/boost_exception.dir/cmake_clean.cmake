@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boost_exception.dir/src/clone_current_exception_non_intrusive.cpp.o"
-  "CMakeFiles/boost_exception.dir/src/clone_current_exception_non_intrusive.cpp.o.d"
-  "libboost_exception.a"
-  "libboost_exception.pdb"
+  "CMakeFiles/boost_exception.dir/src/clone_current_exception_non_intrusive.cpp.obj"
+  "CMakeFiles/boost_exception.dir/src/clone_current_exception_non_intrusive.cpp.obj.d"
+  "libboost_exception-gcc13-mt-d-x64-1_84.a"
+  "libboost_exception-gcc13-mt-d-x64-1_84.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
