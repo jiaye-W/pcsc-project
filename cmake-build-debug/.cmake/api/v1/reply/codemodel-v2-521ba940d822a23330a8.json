@@ -21,7 +21,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						39
+						39,
+						40
 					]
 				},
 				{
@@ -1977,7 +1978,8 @@
 					"name" : "pcsc_project",
 					"targetIndexes" : 
 					[
-						39
+						39,
+						40
 					]
 				},
 				{
@@ -3721,7 +3723,7 @@
 				{
 					"directoryIndex" : 149,
 					"id" : "gmock_main::@9bb205edeb8367ae50f5",
-					"jsonFile" : "target-gmock_main-Debug-1dd94b5dd81eeb4bc20d.json",
+					"jsonFile" : "target-gmock_main-Debug-62508913e412ad6e5dd3.json",
 					"name" : "gmock_main",
 					"projectIndex" : 149
 				},
@@ -3742,8 +3744,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-72e5251d1c7a51e0da2c.json",
+					"jsonFile" : "target-main-Debug-81168332b004f6e9fa42.json",
 					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-9c44a1b4f7220b623e6a.json",
+					"name" : "test",
 					"projectIndex" : 0
 				}
 			]

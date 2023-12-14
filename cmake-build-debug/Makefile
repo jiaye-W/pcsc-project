@@ -175,6 +175,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named boost_atomic
 
 # Build rule for target.
@@ -681,6 +694,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f external\googletest\googletest\CMakeFiles\gtest_main.dir\build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+Tests/test.obj: Tests/test.cpp.obj
+.PHONY : Tests/test.obj
+
+# target to build an object file
+Tests/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Tests/test.cpp.obj
+.PHONY : Tests/test.cpp.obj
+
+Tests/test.i: Tests/test.cpp.i
+.PHONY : Tests/test.i
+
+# target to preprocess a source file
+Tests/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Tests/test.cpp.i
+.PHONY : Tests/test.cpp.i
+
+Tests/test.s: Tests/test.cpp.s
+.PHONY : Tests/test.s
+
+# target to generate assembly for a file
+Tests/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/Tests/test.cpp.s
+.PHONY : Tests/test.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -711,6 +748,7 @@ src/Computations/ExpectedValue.obj: src/Computations/ExpectedValue.cpp.obj
 # target to build an object file
 src/Computations/ExpectedValue.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/ExpectedValue.cpp.obj
 .PHONY : src/Computations/ExpectedValue.cpp.obj
 
 src/Computations/ExpectedValue.i: src/Computations/ExpectedValue.cpp.i
@@ -719,6 +757,7 @@ src/Computations/ExpectedValue.i: src/Computations/ExpectedValue.cpp.i
 # target to preprocess a source file
 src/Computations/ExpectedValue.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/ExpectedValue.cpp.i
 .PHONY : src/Computations/ExpectedValue.cpp.i
 
 src/Computations/ExpectedValue.s: src/Computations/ExpectedValue.cpp.s
@@ -727,6 +766,7 @@ src/Computations/ExpectedValue.s: src/Computations/ExpectedValue.cpp.s
 # target to generate assembly for a file
 src/Computations/ExpectedValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/ExpectedValue.cpp.s
 .PHONY : src/Computations/ExpectedValue.cpp.s
 
 src/Computations/StatisticalMoments.obj: src/Computations/StatisticalMoments.cpp.obj
@@ -735,6 +775,7 @@ src/Computations/StatisticalMoments.obj: src/Computations/StatisticalMoments.cpp
 # target to build an object file
 src/Computations/StatisticalMoments.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/StatisticalMoments.cpp.obj
 .PHONY : src/Computations/StatisticalMoments.cpp.obj
 
 src/Computations/StatisticalMoments.i: src/Computations/StatisticalMoments.cpp.i
@@ -743,6 +784,7 @@ src/Computations/StatisticalMoments.i: src/Computations/StatisticalMoments.cpp.i
 # target to preprocess a source file
 src/Computations/StatisticalMoments.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/StatisticalMoments.cpp.i
 .PHONY : src/Computations/StatisticalMoments.cpp.i
 
 src/Computations/StatisticalMoments.s: src/Computations/StatisticalMoments.cpp.s
@@ -751,6 +793,7 @@ src/Computations/StatisticalMoments.s: src/Computations/StatisticalMoments.cpp.s
 # target to generate assembly for a file
 src/Computations/StatisticalMoments.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Computations/StatisticalMoments.cpp.s
 .PHONY : src/Computations/StatisticalMoments.cpp.s
 
 src/Functions/VectorFunction.obj: src/Functions/VectorFunction.cpp.obj
@@ -759,6 +802,7 @@ src/Functions/VectorFunction.obj: src/Functions/VectorFunction.cpp.obj
 # target to build an object file
 src/Functions/VectorFunction.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Functions/VectorFunction.cpp.obj
 .PHONY : src/Functions/VectorFunction.cpp.obj
 
 src/Functions/VectorFunction.i: src/Functions/VectorFunction.cpp.i
@@ -767,6 +811,7 @@ src/Functions/VectorFunction.i: src/Functions/VectorFunction.cpp.i
 # target to preprocess a source file
 src/Functions/VectorFunction.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Functions/VectorFunction.cpp.i
 .PHONY : src/Functions/VectorFunction.cpp.i
 
 src/Functions/VectorFunction.s: src/Functions/VectorFunction.cpp.s
@@ -775,6 +820,7 @@ src/Functions/VectorFunction.s: src/Functions/VectorFunction.cpp.s
 # target to generate assembly for a file
 src/Functions/VectorFunction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/Functions/VectorFunction.cpp.s
 .PHONY : src/Functions/VectorFunction.cpp.s
 
 src/graph/graph.obj: src/graph/graph.cpp.obj
@@ -807,6 +853,7 @@ src/rng/Normal-rng/NormalRNG.obj: src/rng/Normal-rng/NormalRNG.cpp.obj
 # target to build an object file
 src/rng/Normal-rng/NormalRNG.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/NormalRNG.cpp.obj
 .PHONY : src/rng/Normal-rng/NormalRNG.cpp.obj
 
 src/rng/Normal-rng/NormalRNG.i: src/rng/Normal-rng/NormalRNG.cpp.i
@@ -815,6 +862,7 @@ src/rng/Normal-rng/NormalRNG.i: src/rng/Normal-rng/NormalRNG.cpp.i
 # target to preprocess a source file
 src/rng/Normal-rng/NormalRNG.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/NormalRNG.cpp.i
 .PHONY : src/rng/Normal-rng/NormalRNG.cpp.i
 
 src/rng/Normal-rng/NormalRNG.s: src/rng/Normal-rng/NormalRNG.cpp.s
@@ -823,6 +871,7 @@ src/rng/Normal-rng/NormalRNG.s: src/rng/Normal-rng/NormalRNG.cpp.s
 # target to generate assembly for a file
 src/rng/Normal-rng/NormalRNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/NormalRNG.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/NormalRNG.cpp.s
 .PHONY : src/rng/Normal-rng/NormalRNG.cpp.s
 
 src/rng/Normal-rng/Normal_BM_RNG.obj: src/rng/Normal-rng/Normal_BM_RNG.cpp.obj
@@ -831,6 +880,7 @@ src/rng/Normal-rng/Normal_BM_RNG.obj: src/rng/Normal-rng/Normal_BM_RNG.cpp.obj
 # target to build an object file
 src/rng/Normal-rng/Normal_BM_RNG.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.obj
 .PHONY : src/rng/Normal-rng/Normal_BM_RNG.cpp.obj
 
 src/rng/Normal-rng/Normal_BM_RNG.i: src/rng/Normal-rng/Normal_BM_RNG.cpp.i
@@ -839,6 +889,7 @@ src/rng/Normal-rng/Normal_BM_RNG.i: src/rng/Normal-rng/Normal_BM_RNG.cpp.i
 # target to preprocess a source file
 src/rng/Normal-rng/Normal_BM_RNG.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.i
 .PHONY : src/rng/Normal-rng/Normal_BM_RNG.cpp.i
 
 src/rng/Normal-rng/Normal_BM_RNG.s: src/rng/Normal-rng/Normal_BM_RNG.cpp.s
@@ -847,6 +898,7 @@ src/rng/Normal-rng/Normal_BM_RNG.s: src/rng/Normal-rng/Normal_BM_RNG.cpp.s
 # target to generate assembly for a file
 src/rng/Normal-rng/Normal_BM_RNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_BM_RNG.cpp.s
 .PHONY : src/rng/Normal-rng/Normal_BM_RNG.cpp.s
 
 src/rng/Normal-rng/Normal_IT_RNG.obj: src/rng/Normal-rng/Normal_IT_RNG.cpp.obj
@@ -855,6 +907,7 @@ src/rng/Normal-rng/Normal_IT_RNG.obj: src/rng/Normal-rng/Normal_IT_RNG.cpp.obj
 # target to build an object file
 src/rng/Normal-rng/Normal_IT_RNG.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.obj
 .PHONY : src/rng/Normal-rng/Normal_IT_RNG.cpp.obj
 
 src/rng/Normal-rng/Normal_IT_RNG.i: src/rng/Normal-rng/Normal_IT_RNG.cpp.i
@@ -863,6 +916,7 @@ src/rng/Normal-rng/Normal_IT_RNG.i: src/rng/Normal-rng/Normal_IT_RNG.cpp.i
 # target to preprocess a source file
 src/rng/Normal-rng/Normal_IT_RNG.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.i
 .PHONY : src/rng/Normal-rng/Normal_IT_RNG.cpp.i
 
 src/rng/Normal-rng/Normal_IT_RNG.s: src/rng/Normal-rng/Normal_IT_RNG.cpp.s
@@ -871,6 +925,7 @@ src/rng/Normal-rng/Normal_IT_RNG.s: src/rng/Normal-rng/Normal_IT_RNG.cpp.s
 # target to generate assembly for a file
 src/rng/Normal-rng/Normal_IT_RNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Normal-rng/Normal_IT_RNG.cpp.s
 .PHONY : src/rng/Normal-rng/Normal_IT_RNG.cpp.s
 
 src/rng/RNG.obj: src/rng/RNG.cpp.obj
@@ -879,6 +934,7 @@ src/rng/RNG.obj: src/rng/RNG.cpp.obj
 # target to build an object file
 src/rng/RNG.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/RNG.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/RNG.cpp.obj
 .PHONY : src/rng/RNG.cpp.obj
 
 src/rng/RNG.i: src/rng/RNG.cpp.i
@@ -887,6 +943,7 @@ src/rng/RNG.i: src/rng/RNG.cpp.i
 # target to preprocess a source file
 src/rng/RNG.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/RNG.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/RNG.cpp.i
 .PHONY : src/rng/RNG.cpp.i
 
 src/rng/RNG.s: src/rng/RNG.cpp.s
@@ -895,6 +952,7 @@ src/rng/RNG.s: src/rng/RNG.cpp.s
 # target to generate assembly for a file
 src/rng/RNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/RNG.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/RNG.cpp.s
 .PHONY : src/rng/RNG.cpp.s
 
 src/rng/Uniform-rng/UniformRNG.obj: src/rng/Uniform-rng/UniformRNG.cpp.obj
@@ -903,6 +961,7 @@ src/rng/Uniform-rng/UniformRNG.obj: src/rng/Uniform-rng/UniformRNG.cpp.obj
 # target to build an object file
 src/rng/Uniform-rng/UniformRNG.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.obj
 .PHONY : src/rng/Uniform-rng/UniformRNG.cpp.obj
 
 src/rng/Uniform-rng/UniformRNG.i: src/rng/Uniform-rng/UniformRNG.cpp.i
@@ -911,6 +970,7 @@ src/rng/Uniform-rng/UniformRNG.i: src/rng/Uniform-rng/UniformRNG.cpp.i
 # target to preprocess a source file
 src/rng/Uniform-rng/UniformRNG.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.i
 .PHONY : src/rng/Uniform-rng/UniformRNG.cpp.i
 
 src/rng/Uniform-rng/UniformRNG.s: src/rng/Uniform-rng/UniformRNG.cpp.s
@@ -919,6 +979,7 @@ src/rng/Uniform-rng/UniformRNG.s: src/rng/Uniform-rng/UniformRNG.cpp.s
 # target to generate assembly for a file
 src/rng/Uniform-rng/UniformRNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rng/Uniform-rng/UniformRNG.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.s
 .PHONY : src/rng/Uniform-rng/UniformRNG.cpp.s
 
 # Help Target
@@ -973,6 +1034,10 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... main
+	@echo ... test
+	@echo ... Tests/test.obj
+	@echo ... Tests/test.i
+	@echo ... Tests/test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

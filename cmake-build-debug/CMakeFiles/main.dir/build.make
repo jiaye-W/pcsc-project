@@ -245,11 +245,8 @@ main.exe: CMakeFiles/main.dir/src/Computations/StatisticalMoments.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Computations/ExpectedValue.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Functions/VectorFunction.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
-main.exe: lib/libgtest.a
-main.exe: lib/libgtest_main.a
 main.exe: boost/libs/iostreams/libboost_iostreams-gcc13-mt-d-x64-1_84.a
 main.exe: boost/libs/filesystem/libboost_filesystem-gcc13-mt-d-x64-1_84.a
-main.exe: lib/libgtest.a
 main.exe: boost/libs/atomic/libboost_atomic-gcc13-mt-d-x64-1_84.a
 main.exe: boost/libs/random/libboost_random-gcc13-mt-d-x64-1_84.a
 main.exe: boost/libs/container/libboost_container-gcc13-mt-d-x64-1_84.a

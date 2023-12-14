@@ -1,4 +1,5 @@
 D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/CMakeFiles/main.dir
+D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/CMakeFiles/test.dir
 D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/CMakeFiles/list_install_components.dir
