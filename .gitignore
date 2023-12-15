@@ -31,4 +31,14 @@
 *.out
 *.app
 
+.idea*
+*.o
+*~
+*CMakeFiles
+*CMakeCache.txt
+Makefile
+cmake_install.cmake
+.project
+.cproject
 cmake-build-debug
+
