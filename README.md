@@ -44,6 +44,6 @@ The project can be improved in the following aspects:
 2. Git log
 
 The work separated:
-Jiaye: rng/uniform, rng/normal/normal_IT, functions, computations
-Christian: rng/normal/normal_BM, graph, test.cpp
-Together: configuration, main.cpp
+- Jiaye: rng/uniform, rng/normal/normal_IT, functions, computations
+- Christian: rng/normal/normal_BM, graph, test.cpp
+- Together: configuration, main.cpp
