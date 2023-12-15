@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boost_contract.dir/src/contract.cpp.o"
-  "CMakeFiles/boost_contract.dir/src/contract.cpp.o.d"
-  "libboost_contract.a"
-  "libboost_contract.pdb"
+  "CMakeFiles/boost_contract.dir/src/contract.cpp.obj"
+  "CMakeFiles/boost_contract.dir/src/contract.cpp.obj.d"
+  "libboost_contract-gcc13-mt-d-x64-1_84.a"
+  "libboost_contract-gcc13-mt-d-x64-1_84.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

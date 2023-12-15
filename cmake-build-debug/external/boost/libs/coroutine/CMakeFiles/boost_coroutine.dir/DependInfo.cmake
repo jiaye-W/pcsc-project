@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jiayewei927/Documents/pcsc-project/external/boost/libs/coroutine/src/detail/coroutine_context.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/detail/coroutine_context.cpp.o" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/detail/coroutine_context.cpp.o.d"
-  "/Users/jiayewei927/Documents/pcsc-project/external/boost/libs/coroutine/src/exceptions.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/exceptions.cpp.o" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/exceptions.cpp.o.d"
-  "/Users/jiayewei927/Documents/pcsc-project/external/boost/libs/coroutine/src/posix/stack_traits.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/posix/stack_traits.cpp.o" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/posix/stack_traits.cpp.o.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/coroutine/src/detail/coroutine_context.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/detail/coroutine_context.cpp.obj" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/detail/coroutine_context.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/coroutine/src/exceptions.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/exceptions.cpp.obj" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/exceptions.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/coroutine/src/windows/stack_traits.cpp" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/windows/stack_traits.cpp.obj" "gcc" "external/boost/libs/coroutine/CMakeFiles/boost_coroutine.dir/src/windows/stack_traits.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

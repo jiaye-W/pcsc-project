@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boost_graph.dir/src/graphml.cpp.o"
-  "CMakeFiles/boost_graph.dir/src/graphml.cpp.o.d"
-  "CMakeFiles/boost_graph.dir/src/read_graphviz_new.cpp.o"
-  "CMakeFiles/boost_graph.dir/src/read_graphviz_new.cpp.o.d"
-  "libboost_graph.a"
-  "libboost_graph.pdb"
+  "CMakeFiles/boost_graph.dir/src/graphml.cpp.obj"
+  "CMakeFiles/boost_graph.dir/src/graphml.cpp.obj.d"
+  "CMakeFiles/boost_graph.dir/src/read_graphviz_new.cpp.obj"
+  "CMakeFiles/boost_graph.dir/src/read_graphviz_new.cpp.obj.d"
+  "libboost_graph-gcc13-mt-d-x64-1_84.a"
+  "libboost_graph-gcc13-mt-d-x64-1_84.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

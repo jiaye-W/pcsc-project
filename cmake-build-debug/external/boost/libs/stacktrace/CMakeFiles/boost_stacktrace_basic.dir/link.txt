@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libboost_stacktrace_basic.a CMakeFiles/boost_stacktrace_basic.dir/src/basic.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libboost_stacktrace_basic.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libboost_stacktrace_basic-gcc13-mt-d-x64-1_84.a CMakeFiles/boost_stacktrace_basic.dir/src/basic.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libboost_stacktrace_basic-gcc13-mt-d-x64-1_84.a

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boost_random.dir/src/random_device.cpp.o"
-  "CMakeFiles/boost_random.dir/src/random_device.cpp.o.d"
-  "libboost_random.a"
-  "libboost_random.pdb"
+  "CMakeFiles/boost_random.dir/src/random_device.cpp.obj"
+  "CMakeFiles/boost_random.dir/src/random_device.cpp.obj.d"
+  "libboost_random-gcc13-mt-d-x64-1_84.a"
+  "libboost_random-gcc13-mt-d-x64-1_84.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

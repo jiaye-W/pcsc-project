@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jiayewei927/Documents/pcsc-project/external/boost/libs/atomic/src/lock_pool.cpp" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.o" "gcc" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.o.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/atomic/src/find_address_sse2.cpp" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/find_address_sse2.cpp.obj" "gcc" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/find_address_sse2.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/atomic/src/find_address_sse41.cpp" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/find_address_sse41.cpp.obj" "gcc" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/find_address_sse41.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/atomic/src/lock_pool.cpp" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.obj" "gcc" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/lock_pool.cpp.obj.d"
+  "D:/EPFL/GitHub/pcsc-project-1/external/boost/libs/atomic/src/wait_on_address.cpp" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/wait_on_address.cpp.obj" "gcc" "external/boost/libs/atomic/CMakeFiles/boost_atomic.dir/src/wait_on_address.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

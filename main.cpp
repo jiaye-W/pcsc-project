@@ -16,23 +16,8 @@ void print_vector(std::vector<double> &v)
     std::cout << ")\n";
 }
 
-int main(int argc, char **argv)
+void SystemCheck(int &userTask, int numberOfFunctionalities)
 {
-
-
-    // Introduction
-    std::cout << "Hello! This is an application of our Monte-Carlo project.\n" << std::endl;
-
-    std::cout << "Our application contains the following functionalities: " << std::endl;
-    std::cout << "1. Compute expected value" << std::endl;
-    std::cout << "2. Compute statistical moments" << std::endl;
-    std::cout << "3. Verification of the CLT " << std::endl;
-    std::cout << "4. Verification of the pdf " << std::endl;
-    std::cout << "5. Verification of the cdf " << std::endl;
-    int numberOfFunctionalities = 5;
-
-    // Ask user for command
-    int userTask;
     while (true) {
         std::cout << "Enter the corresponding integer of your wish: " << std::endl;
 
@@ -49,6 +34,66 @@ int main(int argc, char **argv)
             break;
         }
     }
+}
+
+unsigned long long doubleFactorial(int n) {
+    if (n < 0) {
+        std::cerr << "Error: Double factorial is not defined for negative numbers." << std::endl;
+        return 0;
+    }
+    unsigned long long result = 1;
+
+    for (int i = n; i > 0; i -= 2) {
+        result *= i;
+    }
+
+    return result;
+}
+
+int main(int argc, char **argv)
+{
+
+
+    // Introduction
+    std::cout << "Hello! This is an application of our Monte-Carlo project.\n" << std::endl;
+
+    std::cout << "Our application contains the following functionalities: " << std::endl;
+    std::cout << "1. Compute expected value" << std::endl;
+    std::cout << "2. Compute statistical moments" << std::endl;
+    std::cout << "3. Verification of the CLT " << std::endl;
+    std::cout << "4. Histogram plot pdf " << std::endl;
+    int numberOfFunctionalities = 4;
+
+    // Ask user for command
+    int userTask;
+    SystemCheck(userTask, numberOfFunctionalities);
+
+
+    std::cout << "Please choose the random generator among our available rngs:  " << std::endl;
+    std::cout << "1. Uniform rng" << std::endl;
+    std::cout << "2. Normal rng" << std::endl;
+    int user_rng;
+
+    int numberOfRNG = 2;
+
+    SystemCheck(user_rng, numberOfRNG);
+    RNG* pRNG;
+
+    switch (user_rng) {
+        case 1: {
+            pRNG = new UniformRNG;
+            break;
+
+        }
+        case 2:
+        {
+            pRNG = new Normal_IT_RNG;
+            break;
+        }
+        default:
+            pRNG = new UniformRNG;
+    }
+
 
     switch (userTask)
     {
@@ -56,7 +101,7 @@ int main(int argc, char **argv)
         {
             std::cout << "Great! You are directed to task 1: Compute expected value.\n"
 
-                      << "We will compute E[e^{-U}, sin(U)] with U ~Uni(0, 1).\n"
+                      << "We will compute E[e^{-Z}, sin(Z)] .\n"
 
                       << "Please specify the seed you want to use for generating samples: \n";
             int seed;
@@ -66,7 +111,7 @@ int main(int argc, char **argv)
             int numberOfSamples;
             std::cin >> numberOfSamples;
 
-            UniformRNG U(seed);
+            pRNG->SetSeed(seed);
 
             std::function<std::vector<double>(double)> Function;
 
@@ -79,19 +124,29 @@ int main(int argc, char **argv)
                 return result;
             };
             ExpectedValue Exp(VectorFunction(2, Function));
-            std::vector<double> result = Exp.Compute(U, numberOfSamples);
+            std::vector<double> result = Exp.Compute(*pRNG, numberOfSamples);
 
             std::cout << "We use " << numberOfSamples << " sample to approximate E[(e^{-U}, sin(U))]\n"
                       << "We got : ";
             print_vector(result);
 
-            std::vector<double> True_value = {1- exp(-1), 1- cos(1)};
+            std::vector<double> True_value;
+
+            switch (user_rng) {
+                case 1:
+                {
+                    True_value = {1- exp(-1), 1- cos(1)};
+                }
+                case 2: {
+                    True_value = {exp(0.5), 0};
+                }
+            }
 
             std::cout <<"The true value is :  E[(e^{-U}, sin(U))]= ";
 
             print_vector(True_value);
 
-            break;
+            return 0;
         }
 
         case 2: // Compute statistical moments
@@ -105,10 +160,8 @@ int main(int argc, char **argv)
             StatisticalMoments moments = StatisticalMoments(order);
 
             // Create a pointer to RNG (not specified yet)
-            RNG* pRNG;
 
             // Ask user for the type of RNG they want to use.
-            pRNG = new UniformRNG;
             std::cout << "Please specify the seed you want to use for generating samples: " << std::endl;
             int seed;
             std::cin >> seed;
@@ -128,13 +181,24 @@ int main(int argc, char **argv)
                       << "We got : ";
             print_vector(result);
 
-            std::vector<double> True_value = {1./(order+1)};
+            std::vector<double> True_value;
+
+            switch (user_rng) {
+                case 1:
+                {
+                    True_value = {1./(order+1)};
+                }
+                case 2:
+                {
+                    True_value = {1.*doubleFactorial(order-1)};
+                }
+            }
+
+
 
             std::cout <<"The true value is :  E[(e^{-U}, sin(U))]= ";
 
             print_vector(True_value);
-
-            break;
 
             break;
         }
@@ -153,9 +217,8 @@ int main(int argc, char **argv)
             int SampleSize;
             std::cin >> SampleSize;
             Gnuplot gp;
-            UniformRNG U;
             Graph g;
-            g.testCLT(U, gp, SampleSize);
+            g.testCLT(*pRNG, gp, SampleSize);
 
             break;
         }
@@ -174,33 +237,12 @@ int main(int argc, char **argv)
             int SampleSize;
             std::cin >> SampleSize;
             Gnuplot gp;
-            UniformRNG U;
             Graph g;
-            g.pdf(U, gp, SampleSize);
+            g.pdf(*pRNG, gp, SampleSize);
 
             break;
         }
-
-        case 5:
-        {
-            std::cout << "Great! You are directed to task 5: Compute cdf .\n";
-            std::cout << "We want to check that cdf of uniform \n"
-                      << "To do so, we sample the uniform variable and use the sample to estimate its cdf \n"
-
-                      << "Please specify the seed you want to use for generating samples:  \n";
-            int seed;
-            std::cin >> seed;
-
-            std::cout << "Please specify the number of samples: \n";
-            int SampleSize;
-            std::cin >> SampleSize;
-            Gnuplot gp;
-            UniformRNG U;
-            Graph g;
-            g.cdf(U, gp, SampleSize);
-
-            break;
-        }
-
     }
+    delete pRNG;
+    return  0;
 }
