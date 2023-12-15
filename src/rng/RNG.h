@@ -20,6 +20,7 @@ public:
 
 
     //getters
+    virtual double GetMean() const = 0;
     int GetSeed() const;
 
     //setters

@@ -34,6 +34,8 @@ public:
     //methods
     std::vector<double> GenerateSample(int size);
 
+    double GetMean() const { return 0.5;};
+
 };
 
 

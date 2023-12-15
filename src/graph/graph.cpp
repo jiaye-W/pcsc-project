@@ -58,9 +58,40 @@ void Graph::pdf(RNG & m_RNG, Gnuplot &m_gp, unsigned int SampleSize) const
         pdf[i] = static_cast<double>(bins[i]) / (binWidth * SampleSize);
     }
 
-    m_gp << "plot '-' with lines title 'PDF'\n";
-    m_gp.send1d(std::make_tuple(xValues, pdf));
+    // Save data to a file for Gnuplot
+    std::ofstream newDataFile("data.dat");
+    for (size_t i = 0; i < xValues.size(); ++i)
+    {
+        newDataFile << xValues[i] << " " << bins[i]<< std::endl;
+    }
+    newDataFile.close();
+
+
+
+
+
+    m_gp << "set term png\n";
+    m_gp << "set output 'histogram.png'\n";
+    m_gp << "n = " << numBins << "\n";
+    m_gp << "max = " << samples.back() << "\n";
+    m_gp << "min = " << samples.front() << "\n";
+    m_gp << "width = " << binWidth<< "\n";
+    m_gp << "set xrange [min:max]\n";
+    m_gp << "set yrange [0:"<< (*std::max_element(bins.begin(), bins.end())+1) <<"]\n";
+    m_gp << "set offset graph 0.05,0.05,0.05,0.0\n";
+    m_gp << "set xtics min, (max - min) / 5, max\n";
+    m_gp << "set boxwidth width * 0.9\n";
+    m_gp << "set style fill solid 0.5\n";
+    m_gp << "set tics out nomirror\n";
+    m_gp << "set xlabel 'x'\n";
+    m_gp << "set ylabel 'Frequency'\n";
+    m_gp << "plot 'data.dat' u 1:2:(width) with boxes lc rgb 'green' notitle\n";
+
+    std::cout << "Histogram and PDF plot saved to 'cmake-build-debug/histogram.png'.\n";
+
     m_gp.do_flush();
+
+
 }
 
 void Graph::testCLT(RNG & m_RNG, Gnuplot &m_gp, unsigned int SampleSize) const
@@ -69,13 +100,18 @@ void Graph::testCLT(RNG & m_RNG, Gnuplot &m_gp, unsigned int SampleSize) const
     std::vector<double> samples = m_RNG.GenerateSample(SampleSize);
     double i = 0;
     double CurrentMean = 0;
+    double TrueMean = m_RNG.GetMean();
 
     for (auto c = samples.begin(); c != samples.end(); ++c, ++i)
     {
         CurrentMean = (CurrentMean * i + (*c)) / (i + 1);
-        points.push_back(std::make_tuple(i + 1, CurrentMean, 0.05));
+        points.push_back(std::make_tuple(i + 1, CurrentMean - TrueMean, 0.05));
     }
-    m_gp << "plot '-' with lines title 'CLT test'\n";
+
+    m_gp << "plot '-' with lines title 'CLT test (CurrentMean - TrueMean)' lw 2\n";
     m_gp.send1d(points);
     m_gp.do_flush();
+
+    std::cout << "The plot shows the difference between the CurrentMean using the n first sample and the true mean.\n"
+              << "You should notice that the value approaches 0\n";
 }

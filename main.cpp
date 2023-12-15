@@ -1,4 +1,3 @@
-
 #include "src/graph/graph.h"
 #include "external/gnuplot-iostream/gnuplot-iostream.h"
 #include "src/rng/Uniform-rng/UniformRNG.h"
@@ -17,16 +16,20 @@ void print_vector(std::vector<double> &v)
     std::cout << ")\n";
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char **argv)
 {
+
+
     // Introduction
     std::cout << "Hello! This is an application of our Monte-Carlo project.\n" << std::endl;
 
     std::cout << "Our application contains the following functionalities: " << std::endl;
     std::cout << "1. Compute expected value" << std::endl;
     std::cout << "2. Compute statistical moments" << std::endl;
-    std::cout << "3. Verification of the CLT \n" << std::endl;
-    int numberOfFunctionalities = 3;
+    std::cout << "3. Verification of the CLT " << std::endl;
+    std::cout << "4. Verification of the pdf " << std::endl;
+    std::cout << "5. Verification of the cdf " << std::endl;
+    int numberOfFunctionalities = 5;
 
     // Ask user for command
     int userTask;
@@ -156,6 +159,48 @@ int main(int argc, char* argv[])
 
             break;
         }
+
+        case 4:
+        {
+            std::cout << "Great! You are directed to task 4: Compute pdf .\n";
+            std::cout << "We want to check that pdf of uniform \n"
+                      << "To do so, we sample the uniform variable and use the sample to estimate its pdf \n"
+
+                      << "Please specify the seed you want to use for generating samples:  \n";
+            int seed;
+            std::cin >> seed;
+
+            std::cout << "Please specify the number of samples: \n";
+            int SampleSize;
+            std::cin >> SampleSize;
+            Gnuplot gp;
+            UniformRNG U;
+            Graph g;
+            g.pdf(U, gp, SampleSize);
+
+            break;
+        }
+
+        case 5:
+        {
+            std::cout << "Great! You are directed to task 5: Compute cdf .\n";
+            std::cout << "We want to check that cdf of uniform \n"
+                      << "To do so, we sample the uniform variable and use the sample to estimate its cdf \n"
+
+                      << "Please specify the seed you want to use for generating samples:  \n";
+            int seed;
+            std::cin >> seed;
+
+            std::cout << "Please specify the number of samples: \n";
+            int SampleSize;
+            std::cin >> SampleSize;
+            Gnuplot gp;
+            UniformRNG U;
+            Graph g;
+            g.cdf(U, gp, SampleSize);
+
+            break;
+        }
+
     }
 }
-
