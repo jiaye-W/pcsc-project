@@ -7,7 +7,7 @@ This project is developed by CHRISTIAN N'GUESSAN and JIAYE WEI for the PCSC cour
 The project is structured as follows:
 
 - **src:** Contains the source code for the random number generators and statistical tools.
-- **external:** Submodules for the Boost C++ library version 1.79, the googletest library and 
+- **external:** Submodules for the Boost C++ library version 1.79, the googletest library and gnuplot-iostream
 - **CMakeLists.txt:** CMake build system configuration.
 - **Doxyfile:** Doxygen configuration file for generating documentation.
 
@@ -19,6 +19,7 @@ To compile the program, follow these steps:
 3. Navigate to the project directory: `cd src/`
 4. Create a build directory: `mkdir cmake-build-debug`
 5. Build the project: `cmake --build .`
+6. Please make sure you have downloaded gnuplot before generating plots.
 
 ### How to see the doxygen documentation
 In the terminal, do:
@@ -40,10 +41,11 @@ The project includes a comprehensive test suite using Google Test, which contain
 
 ## TODOs and perspectives
 The project can be improved in the following aspects:
-1. Allow user to specify their choice of RNG in the main application
+1. Allow user to specify their choice of RNG in the main application (fixed in our latest commit)
 2. Git log
 
-The work separated:
+
+### The work separated:
 - Jiaye: rng/uniform, rng/normal/normal_IT, functions, computations
 - Christian: rng/normal/normal_BM, graph, test.cpp
 - Together: configuration, main.cpp
