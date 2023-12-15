@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.26.4)
 project(pcsc_project)
 
-add_subdirectory(boost)
+add_subdirectory(external/boost)
 add_subdirectory(external/googletest)
 
 # Target.

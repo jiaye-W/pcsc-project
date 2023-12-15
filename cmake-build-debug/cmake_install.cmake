@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jiayewei927/Desktop/pcsc-project-2
+# Install script for directory: /Users/jiayewei927/Documents/pcsc-project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jiayewei927/Desktop/pcsc-project-2/cmake-build-debug/boost/cmake_install.cmake")
+  include("/Users/jiayewei927/Documents/pcsc-project/cmake-build-debug/external/boost/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jiayewei927/Desktop/pcsc-project-2/cmake-build-debug/external/googletest/cmake_install.cmake")
+  include("/Users/jiayewei927/Documents/pcsc-project/cmake-build-debug/external/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jiayewei927/Desktop/pcsc-project-2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jiayewei927/Documents/pcsc-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

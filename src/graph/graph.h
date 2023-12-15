@@ -10,7 +10,7 @@
 #include <vector>
 #include <tuple>
 #include "../../src/rng/RNG.h"
-#include "../../gnuplot-iostream/gnuplot-iostream.h"
+#include "../../external/gnuplot-iostream/gnuplot-iostream.h"
 
 class Graph
 {

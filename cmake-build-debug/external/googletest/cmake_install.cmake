@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jiayewei927/Desktop/pcsc-project-2/external/googletest
+# Install script for directory: /Users/jiayewei927/Documents/pcsc-project/external/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jiayewei927/Desktop/pcsc-project-2/cmake-build-debug/external/googletest/googlemock/cmake_install.cmake")
+  include("/Users/jiayewei927/Documents/pcsc-project/cmake-build-debug/external/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

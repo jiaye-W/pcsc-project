@@ -1,6 +1,6 @@
 
 #include "src/graph/graph.h"
-#include "gnuplot-iostream/gnuplot-iostream.h"
+#include "external/gnuplot-iostream/gnuplot-iostream.h"
 #include "src/rng/Uniform-rng/UniformRNG.h"
 #include "src/rng/Normal-rng/Normal_BM_RNG.h"
 #include "src/rng/Normal-rng/Normal_IT_RNG.h"
