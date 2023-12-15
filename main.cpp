@@ -44,7 +44,6 @@ int main(int argc, char **argv)
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Discard invalid input
             std::cout << "Invalid input. Please enter a valid integer." << std::endl;
         } else {
-            // Input was an integer, break out of the loop
             break;
         }
     }
@@ -151,14 +150,18 @@ int main(int argc, char **argv)
             std::cout << "Please specify the number of samples: \n";
             int SampleSize;
             std::cin >> SampleSize;
-            Gnuplot gp;
+            Gnuplot gp("wsl ");
             UniformRNG U;
             Graph g;
             g.testCLT(U, gp, SampleSize);
+
+            std::cout << "Please enter to exit";
+            std::cin.get();
 
             break;
         }
 
     }
+    return 0;
 }
 

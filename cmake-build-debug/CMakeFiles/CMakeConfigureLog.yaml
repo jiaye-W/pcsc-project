@@ -1959,3 +1959,1039 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d9e3c/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d9e3c.dir\\build.make CMakeFiles/cmTC_d9e3c.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_d9e3c.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_d9e3c.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_d9e3c.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_d9e3c.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d9e3c.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_d9e3c.a CMakeFiles/cmTC_d9e3c.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_d9e3c.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_eab71/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_eab71.dir\\build.make CMakeFiles/cmTC_eab71.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_eab71.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_eab71.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_eab71.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_eab71.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_eab71.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_eab71.a CMakeFiles/cmTC_eab71.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_eab71.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a0148/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a0148.dir\\build.make CMakeFiles/cmTC_a0148.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_a0148.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_a0148.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_a0148.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a0148.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a0148.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_a0148.a CMakeFiles/cmTC_a0148.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_a0148.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_3f4da/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3f4da.dir\\build.make CMakeFiles/cmTC_3f4da.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3f4da.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_3f4da.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_3f4da.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_3f4da.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3f4da.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_3f4da.a CMakeFiles/cmTC_3f4da.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_3f4da.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5f4b3/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f4b3.dir\\build.make CMakeFiles/cmTC_5f4b3.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_5f4b3.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_5f4b3.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_5f4b3.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_5f4b3.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5f4b3.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_5f4b3.a CMakeFiles/cmTC_5f4b3.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_5f4b3.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_9dbc5/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9dbc5.dir\\build.make CMakeFiles/cmTC_9dbc5.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_9dbc5.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_9dbc5.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_9dbc5.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_9dbc5.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9dbc5.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_9dbc5.a CMakeFiles/cmTC_9dbc5.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_9dbc5.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_03ab8/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_03ab8.dir\\build.make CMakeFiles/cmTC_03ab8.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_03ab8.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_03ab8.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_03ab8.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_03ab8.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_03ab8.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_03ab8.a CMakeFiles/cmTC_03ab8.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_03ab8.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_98fb8/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_98fb8.dir\\build.make CMakeFiles/cmTC_98fb8.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_98fb8.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_98fb8.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_98fb8.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_98fb8.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_98fb8.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_98fb8.a CMakeFiles/cmTC_98fb8.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_98fb8.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8fccf/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8fccf.dir\\build.make CMakeFiles/cmTC_8fccf.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8fccf.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_8fccf.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_8fccf.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_8fccf.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8fccf.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_8fccf.a CMakeFiles/cmTC_8fccf.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_8fccf.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e11d2/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e11d2.dir\\build.make CMakeFiles/cmTC_e11d2.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e11d2.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_e11d2.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_e11d2.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_e11d2.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e11d2.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_e11d2.a CMakeFiles/cmTC_e11d2.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_e11d2.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e63aa/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e63aa.dir\\build.make CMakeFiles/cmTC_e63aa.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e63aa.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_e63aa.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_e63aa.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_e63aa.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e63aa.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_e63aa.a CMakeFiles/cmTC_e63aa.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_e63aa.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_2f2bb/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2f2bb.dir\\build.make CMakeFiles/cmTC_2f2bb.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_2f2bb.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_2f2bb.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_2f2bb.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_2f2bb.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2f2bb.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_2f2bb.a CMakeFiles/cmTC_2f2bb.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_2f2bb.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_42dff/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_42dff.dir\\build.make CMakeFiles/cmTC_42dff.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_42dff.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_42dff.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_42dff.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_42dff.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_42dff.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_42dff.a CMakeFiles/cmTC_42dff.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_42dff.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c8fb2/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c8fb2.dir\\build.make CMakeFiles/cmTC_c8fb2.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_c8fb2.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_c8fb2.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_c8fb2.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_c8fb2.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c8fb2.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_c8fb2.a CMakeFiles/cmTC_c8fb2.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_c8fb2.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_46011/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_46011.dir\\build.make CMakeFiles/cmTC_46011.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_46011.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_46011.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_46011.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_46011.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_46011.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_46011.a CMakeFiles/cmTC_46011.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_46011.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7adcd/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7adcd.dir\\build.make CMakeFiles/cmTC_7adcd.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7adcd.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_7adcd.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_7adcd.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_7adcd.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7adcd.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_7adcd.a CMakeFiles/cmTC_7adcd.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_7adcd.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_37deb/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_37deb.dir\\build.make CMakeFiles/cmTC_37deb.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_37deb.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_37deb.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_37deb.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_37deb.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_37deb.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_37deb.a CMakeFiles/cmTC_37deb.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_37deb.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_3ba7f/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3ba7f.dir\\build.make CMakeFiles/cmTC_3ba7f.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3ba7f.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_3ba7f.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_3ba7f.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_3ba7f.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3ba7f.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_3ba7f.a CMakeFiles/cmTC_3ba7f.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_3ba7f.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f1934/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f1934.dir\\build.make CMakeFiles/cmTC_f1934.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f1934.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_f1934.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_f1934.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f1934.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f1934.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_f1934.a CMakeFiles/cmTC_f1934.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_f1934.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d899a/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d899a.dir\\build.make CMakeFiles/cmTC_d899a.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_d899a.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_d899a.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_d899a.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_d899a.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d899a.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_d899a.a CMakeFiles/cmTC_d899a.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_d899a.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_93573/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93573.dir\\build.make CMakeFiles/cmTC_93573.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_93573.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_93573.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_93573.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_93573.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_93573.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_93573.a CMakeFiles/cmTC_93573.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_93573.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_36c7e/fast
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_36c7e.dir\\build.make CMakeFiles/cmTC_36c7e.dir/build
+        mingw32-make[2]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_36c7e.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -o CMakeFiles\\cmTC_36c7e.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_36c7e.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_36c7e.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_36c7e.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_36c7e.a CMakeFiles/cmTC_36c7e.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_36c7e.a
+        mingw32-make[2]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f0337/fast
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f0337.dir\\build.make CMakeFiles/cmTC_f0337.dir/build
+        mingw32-make[2]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f0337.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -o CMakeFiles\\cmTC_f0337.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_f0337.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f0337.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f0337.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_f0337.a CMakeFiles/cmTC_f0337.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_f0337.a
+        mingw32-make[2]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fe431/fast
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fe431.dir\\build.make CMakeFiles/cmTC_fe431.dir/build
+        mingw32-make[2]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fe431.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -o CMakeFiles\\cmTC_fe431.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_fe431.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_fe431.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fe431.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_fe431.a CMakeFiles/cmTC_fe431.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_fe431.a
+        mingw32-make[2]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0a1f1/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0a1f1.dir\\build.make CMakeFiles/cmTC_0a1f1.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_0a1f1.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_0a1f1.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_0a1f1.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_0a1f1.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0a1f1.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_0a1f1.a CMakeFiles/cmTC_0a1f1.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_0a1f1.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a98e3/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a98e3.dir\\build.make CMakeFiles/cmTC_a98e3.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_a98e3.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_a98e3.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_a98e3.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a98e3.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a98e3.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_a98e3.a CMakeFiles/cmTC_a98e3.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_a98e3.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_acc26/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_acc26.dir\\build.make CMakeFiles/cmTC_acc26.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_acc26.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_acc26.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_acc26.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_acc26.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_acc26.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_acc26.a CMakeFiles/cmTC_acc26.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_acc26.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_38048/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_38048.dir\\build.make CMakeFiles/cmTC_38048.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_38048.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_38048.dir\\coroutine.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\coroutine.cpp
+        Linking CXX static library libcmTC_38048.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_38048.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_38048.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_38048.a CMakeFiles/cmTC_38048.dir/coroutine.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_38048.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5f286/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f286.dir\\build.make CMakeFiles/cmTC_5f286.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_5f286.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\cmTC_5f286.dir\\concepts.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\concepts.cpp
+        Linking CXX static library libcmTC_5f286.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_5f286.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5f286.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_5f286.a CMakeFiles/cmTC_5f286.dir/concepts.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_5f286.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/EPFL/GitHub/pcsc-project-1/boost/tools/cmake/include"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ae594/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ae594.dir\\build.make CMakeFiles/cmTC_ae594.dir/build
+        mingw32-make[1]: Entering directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ae594.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_ae594.dir\\memory_resource.cpp.obj -c D:\\EPFL\\GitHub\\pcsc-project-1\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp
+        Linking CXX static library libcmTC_ae594.a
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_ae594.dir\\cmake_clean_target.cmake
+        "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ae594.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ar.exe qc libcmTC_ae594.a CMakeFiles/cmTC_ae594.dir/memory_resource.cpp.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\ranlib.exe libcmTC_ae594.a
+        mingw32-make[1]: Leaving directory 'D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

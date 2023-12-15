@@ -21,6 +21,6 @@ CMake Deprecation Warning:
 -- Boost.Redis has been disabled, because the required package OpenSSL hasn't been found
 -- Boost.Stacktrace: noop ON, backtrace OFF, addr2line OFF, basic ON, windbg ON, windbg_cached ON
 -- Boost.Thread: threading API is win32
--- Configuring done (3.2s)
--- Generating done (5.2s)
+-- Configuring done (3.5s)
+-- Generating done (9.6s)
 -- Build files have been written to: D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug

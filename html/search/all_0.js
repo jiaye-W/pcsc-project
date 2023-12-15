@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['graph_0',['Graph',['../classGraph.html',1,'']]]
+  ['expectedvalue_0',['ExpectedValue',['../classExpectedValue.html',1,'']]]
 ];

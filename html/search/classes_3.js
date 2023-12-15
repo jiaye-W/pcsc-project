@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uniformrng_11',['UniformRNG',['../classUniformRNG.html',1,'']]]
+  ['rng_14',['RNG',['../classRNG.html',1,'']]]
 ];

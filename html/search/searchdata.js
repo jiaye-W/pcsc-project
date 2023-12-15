@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "gnru",
-  1: "gnru"
+  0: "egnrsuv",
+  1: "egnrsuv"
 };
 
 var indexSectionNames =

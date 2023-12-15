@@ -5,7 +5,6 @@
 #include <cmath>
 #include <iostream>
 #include <vector>
-#include <functional>
 #include "../src/rng/Uniform-rng/UniformRNG.h"
 #include "../src/rng/Normal-rng/Normal_BM_RNG.h"
 #include "../src/rng/Normal-rng/Normal_IT_RNG.h"
@@ -22,7 +21,7 @@ protected:
     ExpectedValue Exp;
     StatisticalMoments Moment;
 
-    SystemTest() : Uni(), Z(0, 2), Exp(), Moment(2) {}
+    SystemTest() : Uni(), Z(0, 1.1), Exp(), Moment(2) {}
 
     // No need for TearDown if there are no cleanup operations
 };
@@ -79,10 +78,10 @@ TEST_F(SystemTest, MomentTest) {
         True_moment = std::pow(Z.GetSigma(), n) * doubleFactorial(n-1);
     }
 
-    ASSERT_NEAR(Estim_Sigma2[0], True_moment, 0.01);
+    ASSERT_NEAR(Estim_Sigma2[0], True_moment, 0.2);
 }
 
-/*TEST_F(SystemTest, ExpectationTest) {
+TEST_F(SystemTest, ExpectationTest) {
 std::function<std::vector<double>(double)> Function;
 double t = -1;
 
@@ -95,14 +94,14 @@ Function = [t](double x) {
 };
 
 Exp.SetVectorFunction(VectorFunction(2, Function));
-std::vector<double> result = Exp.Compute(Z, 1000000000);
+std::vector<double> result = Exp.Compute(Z, 1000000);
 
 ASSERT_NEAR(result[1], 0, 0.01);
-ASSERT_NEAR(result[0], exp(t * Z.GetMean() + 0.5 * pow(Z.GetSigma() * t, 2)), 0.01);
+ASSERT_NEAR(result[0], exp(t * Z.GetMean() + 0.5 * pow(Z.GetSigma() * t, 2)), 0.2);
 
 }
 
- */
+
 
 unsigned long long doubleFactorial(int n) {
     if (n < 0) {

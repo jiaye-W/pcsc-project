@@ -7,7 +7,6 @@ add_subdirectory(external/googletest)
 
 # Main executable
 add_executable(main
-        main.cpp
 
 
         src/rng/RNG.h
@@ -31,10 +30,11 @@ add_executable(main
 
         src/Functions/VectorFunction.h
         src/Functions/VectorFunction.cpp
+        main.cpp
 )
 
 add_executable(test
-        Tests/test.cpp
+
         src/rng/RNG.h
         src/rng/RNG.cpp
         src/rng/Uniform-rng/UniformRNG.h
@@ -51,6 +51,8 @@ add_executable(test
         src/Computations/ExpectedValue.cpp
         src/Functions/VectorFunction.h
         src/Functions/VectorFunction.cpp
+
+        Tests/test.cpp
 )
 
 
