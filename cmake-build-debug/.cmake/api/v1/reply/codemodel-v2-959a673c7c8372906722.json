@@ -1,0 +1,3763 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						148
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						38,
+						39
+					]
+				},
+				{
+					"build" : "boost",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147
+					],
+					"jsonFile" : "directory-boost-Debug-997268e8b20151033ad9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "boost"
+				},
+				{
+					"build" : "boost/libs/accumulators",
+					"jsonFile" : "directory-boost.libs.accumulators-Debug-006e0bef4bb65d3a27c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "boost/libs/accumulators"
+				},
+				{
+					"build" : "boost/libs/algorithm",
+					"jsonFile" : "directory-boost.libs.algorithm-Debug-5889516fec6bb3a76c49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "boost/libs/algorithm"
+				},
+				{
+					"build" : "boost/libs/align",
+					"jsonFile" : "directory-boost.libs.align-Debug-b700e66ff1e6fecdfd5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "boost/libs/align"
+				},
+				{
+					"build" : "boost/libs/any",
+					"jsonFile" : "directory-boost.libs.any-Debug-1cf865578f07ed838042.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "boost/libs/any"
+				},
+				{
+					"build" : "boost/libs/array",
+					"jsonFile" : "directory-boost.libs.array-Debug-01ef7fe4ca5fdf9f3610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "boost/libs/array"
+				},
+				{
+					"build" : "boost/libs/asio",
+					"jsonFile" : "directory-boost.libs.asio-Debug-353f5e8fa5b86ae4823f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "boost/libs/asio"
+				},
+				{
+					"build" : "boost/libs/assert",
+					"jsonFile" : "directory-boost.libs.assert-Debug-9f5b0dfa9ef6757af04f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "boost/libs/assert"
+				},
+				{
+					"build" : "boost/libs/assign",
+					"jsonFile" : "directory-boost.libs.assign-Debug-261af37e5b8f993355de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "boost/libs/assign"
+				},
+				{
+					"build" : "boost/libs/atomic",
+					"jsonFile" : "directory-boost.libs.atomic-Debug-b6228313bb75aa51a211.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "boost/libs/atomic",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "boost/libs/beast",
+					"jsonFile" : "directory-boost.libs.beast-Debug-37c6e398043c414d9050.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "boost/libs/beast"
+				},
+				{
+					"build" : "boost/libs/bimap",
+					"jsonFile" : "directory-boost.libs.bimap-Debug-c0b31f6bd5c735cfddb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 12,
+					"source" : "boost/libs/bimap"
+				},
+				{
+					"build" : "boost/libs/bind",
+					"jsonFile" : "directory-boost.libs.bind-Debug-1e3d25bd1af363b192d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 13,
+					"source" : "boost/libs/bind"
+				},
+				{
+					"build" : "boost/libs/callable_traits",
+					"jsonFile" : "directory-boost.libs.callable_traits-Debug-4ffd48d3e8cb53ebea10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 14,
+					"source" : "boost/libs/callable_traits"
+				},
+				{
+					"build" : "boost/libs/chrono",
+					"jsonFile" : "directory-boost.libs.chrono-Debug-a2ec48eadab640faae28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 15,
+					"source" : "boost/libs/chrono",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "boost/libs/circular_buffer",
+					"jsonFile" : "directory-boost.libs.circular_buffer-Debug-d9ebf0e5fc7c8885074b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 16,
+					"source" : "boost/libs/circular_buffer"
+				},
+				{
+					"build" : "boost/libs/cobalt",
+					"jsonFile" : "directory-boost.libs.cobalt-Debug-80e7465f22b68ac07150.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 17,
+					"source" : "boost/libs/cobalt",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "boost/libs/compat",
+					"jsonFile" : "directory-boost.libs.compat-Debug-d323d29a8518c96e6716.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 18,
+					"source" : "boost/libs/compat"
+				},
+				{
+					"build" : "boost/libs/compatibility",
+					"jsonFile" : "directory-boost.libs.compatibility-Debug-1c6b79219edfcebc0110.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 19,
+					"source" : "boost/libs/compatibility"
+				},
+				{
+					"build" : "boost/libs/compute",
+					"jsonFile" : "directory-boost.libs.compute-Debug-7cfbe6981038a93f6f3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 20,
+					"source" : "boost/libs/compute"
+				},
+				{
+					"build" : "boost/libs/concept_check",
+					"jsonFile" : "directory-boost.libs.concept_check-Debug-246b0b3f2dc3c3e7b1f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 21,
+					"source" : "boost/libs/concept_check"
+				},
+				{
+					"build" : "boost/libs/config",
+					"jsonFile" : "directory-boost.libs.config-Debug-13abcc4134bf6a85008d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 22,
+					"source" : "boost/libs/config"
+				},
+				{
+					"build" : "boost/libs/container",
+					"jsonFile" : "directory-boost.libs.container-Debug-b9bf9ebfa6240ae1f042.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 23,
+					"source" : "boost/libs/container",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "boost/libs/container_hash",
+					"jsonFile" : "directory-boost.libs.container_hash-Debug-b70142943bfd0f7ecf02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 24,
+					"source" : "boost/libs/container_hash"
+				},
+				{
+					"build" : "boost/libs/context",
+					"jsonFile" : "directory-boost.libs.context-Debug-5c3f8cb19ff460aa5502.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 25,
+					"source" : "boost/libs/context",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "boost/libs/contract",
+					"jsonFile" : "directory-boost.libs.contract-Debug-d6b0d6feb8d58377f998.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 26,
+					"source" : "boost/libs/contract",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "boost/libs/conversion",
+					"jsonFile" : "directory-boost.libs.conversion-Debug-888ac1c3eab3e4127b1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 27,
+					"source" : "boost/libs/conversion"
+				},
+				{
+					"build" : "boost/libs/convert",
+					"jsonFile" : "directory-boost.libs.convert-Debug-b636a35da6128f349101.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 28,
+					"source" : "boost/libs/convert"
+				},
+				{
+					"build" : "boost/libs/core",
+					"jsonFile" : "directory-boost.libs.core-Debug-54c8388ec9f52b19aca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 29,
+					"source" : "boost/libs/core"
+				},
+				{
+					"build" : "boost/libs/coroutine",
+					"jsonFile" : "directory-boost.libs.coroutine-Debug-cbba5486b46842ceea8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 30,
+					"source" : "boost/libs/coroutine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "boost/libs/coroutine2",
+					"jsonFile" : "directory-boost.libs.coroutine2-Debug-82c7996b842a3d41c349.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 31,
+					"source" : "boost/libs/coroutine2"
+				},
+				{
+					"build" : "boost/libs/crc",
+					"jsonFile" : "directory-boost.libs.crc-Debug-9f0bb500917add16d89d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 32,
+					"source" : "boost/libs/crc"
+				},
+				{
+					"build" : "boost/libs/date_time",
+					"jsonFile" : "directory-boost.libs.date_time-Debug-fe080f067449f30d13cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 33,
+					"source" : "boost/libs/date_time",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "boost/libs/describe",
+					"jsonFile" : "directory-boost.libs.describe-Debug-60ea69450eb04154a2fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 34,
+					"source" : "boost/libs/describe"
+				},
+				{
+					"build" : "boost/libs/detail",
+					"jsonFile" : "directory-boost.libs.detail-Debug-ade5e5507c44a340a733.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 35,
+					"source" : "boost/libs/detail"
+				},
+				{
+					"build" : "boost/libs/dll",
+					"jsonFile" : "directory-boost.libs.dll-Debug-a6b2f6a50fcfcb866163.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 36,
+					"source" : "boost/libs/dll"
+				},
+				{
+					"build" : "boost/libs/dynamic_bitset",
+					"jsonFile" : "directory-boost.libs.dynamic_bitset-Debug-8b9be9f52c9a10f7f2b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 37,
+					"source" : "boost/libs/dynamic_bitset"
+				},
+				{
+					"build" : "boost/libs/endian",
+					"jsonFile" : "directory-boost.libs.endian-Debug-a2034ef3cce1396979c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 38,
+					"source" : "boost/libs/endian"
+				},
+				{
+					"build" : "boost/libs/exception",
+					"jsonFile" : "directory-boost.libs.exception-Debug-b241f8db8f45bce79f1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 39,
+					"source" : "boost/libs/exception",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "boost/libs/fiber",
+					"jsonFile" : "directory-boost.libs.fiber-Debug-fab19daabc02c146c875.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 40,
+					"source" : "boost/libs/fiber",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "boost/libs/filesystem",
+					"jsonFile" : "directory-boost.libs.filesystem-Debug-bcb0ecd965a2a0f1e9d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 41,
+					"source" : "boost/libs/filesystem",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "boost/libs/flyweight",
+					"jsonFile" : "directory-boost.libs.flyweight-Debug-455d6c72d437ffd4331e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 42,
+					"source" : "boost/libs/flyweight"
+				},
+				{
+					"build" : "boost/libs/foreach",
+					"jsonFile" : "directory-boost.libs.foreach-Debug-712dd2e050ac8b423e33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 43,
+					"source" : "boost/libs/foreach"
+				},
+				{
+					"build" : "boost/libs/format",
+					"jsonFile" : "directory-boost.libs.format-Debug-d72ab3aec49340705fb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 44,
+					"source" : "boost/libs/format"
+				},
+				{
+					"build" : "boost/libs/function",
+					"jsonFile" : "directory-boost.libs.function-Debug-8bc777859c6749625821.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 45,
+					"source" : "boost/libs/function"
+				},
+				{
+					"build" : "boost/libs/function_types",
+					"jsonFile" : "directory-boost.libs.function_types-Debug-e901835c2aec383781cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 46,
+					"source" : "boost/libs/function_types"
+				},
+				{
+					"build" : "boost/libs/functional",
+					"jsonFile" : "directory-boost.libs.functional-Debug-d1f8ff620440d5499e02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 47,
+					"source" : "boost/libs/functional"
+				},
+				{
+					"build" : "boost/libs/fusion",
+					"jsonFile" : "directory-boost.libs.fusion-Debug-a6fcdba1323803ff3079.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 48,
+					"source" : "boost/libs/fusion"
+				},
+				{
+					"build" : "boost/libs/geometry",
+					"jsonFile" : "directory-boost.libs.geometry-Debug-6d33ef344fcc502b272f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 49,
+					"source" : "boost/libs/geometry"
+				},
+				{
+					"build" : "boost/libs/gil",
+					"jsonFile" : "directory-boost.libs.gil-Debug-c7130aedc32cd6e6f14a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 50,
+					"source" : "boost/libs/gil"
+				},
+				{
+					"build" : "boost/libs/graph",
+					"jsonFile" : "directory-boost.libs.graph-Debug-dbddb46ed4786e310e2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 51,
+					"source" : "boost/libs/graph",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "boost/libs/hana",
+					"jsonFile" : "directory-boost.libs.hana-Debug-4fc0a768ce8c68f75e23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 52,
+					"source" : "boost/libs/hana"
+				},
+				{
+					"build" : "boost/libs/headers",
+					"jsonFile" : "directory-boost.libs.headers-Debug-91d2132d6b751124b412.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 53,
+					"source" : "boost/libs/headers"
+				},
+				{
+					"build" : "boost/libs/heap",
+					"jsonFile" : "directory-boost.libs.heap-Debug-e46cd8832b92fdc1c89a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 54,
+					"source" : "boost/libs/heap"
+				},
+				{
+					"build" : "boost/libs/histogram",
+					"jsonFile" : "directory-boost.libs.histogram-Debug-b0852f539fe2abdecfc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 55,
+					"source" : "boost/libs/histogram"
+				},
+				{
+					"build" : "boost/libs/hof",
+					"jsonFile" : "directory-boost.libs.hof-Debug-229557e9eea6ffb16cce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 56,
+					"source" : "boost/libs/hof"
+				},
+				{
+					"build" : "boost/libs/icl",
+					"jsonFile" : "directory-boost.libs.icl-Debug-c6dc143e0319d04c5659.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 57,
+					"source" : "boost/libs/icl"
+				},
+				{
+					"build" : "boost/libs/integer",
+					"jsonFile" : "directory-boost.libs.integer-Debug-57b3ebba95996efdf29d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 58,
+					"source" : "boost/libs/integer"
+				},
+				{
+					"build" : "boost/libs/interprocess",
+					"jsonFile" : "directory-boost.libs.interprocess-Debug-696b1f0c466d629df1b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 59,
+					"source" : "boost/libs/interprocess"
+				},
+				{
+					"build" : "boost/libs/intrusive",
+					"jsonFile" : "directory-boost.libs.intrusive-Debug-dd558f5849ef381005d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 60,
+					"source" : "boost/libs/intrusive"
+				},
+				{
+					"build" : "boost/libs/io",
+					"jsonFile" : "directory-boost.libs.io-Debug-4329f42d21e5577aa7d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 61,
+					"source" : "boost/libs/io"
+				},
+				{
+					"build" : "boost/libs/iostreams",
+					"jsonFile" : "directory-boost.libs.iostreams-Debug-9914bd782c3d42844d25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 62,
+					"source" : "boost/libs/iostreams",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "boost/libs/iterator",
+					"jsonFile" : "directory-boost.libs.iterator-Debug-2649083b7c65c9525ba9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 63,
+					"source" : "boost/libs/iterator"
+				},
+				{
+					"build" : "boost/libs/json",
+					"jsonFile" : "directory-boost.libs.json-Debug-20ec82952b41b98f8f2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 64,
+					"source" : "boost/libs/json",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "boost/libs/lambda",
+					"jsonFile" : "directory-boost.libs.lambda-Debug-d17e83382fa204053917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 65,
+					"source" : "boost/libs/lambda"
+				},
+				{
+					"build" : "boost/libs/lambda2",
+					"jsonFile" : "directory-boost.libs.lambda2-Debug-e4c70e624149c34ec71b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 66,
+					"source" : "boost/libs/lambda2"
+				},
+				{
+					"build" : "boost/libs/leaf",
+					"jsonFile" : "directory-boost.libs.leaf-Debug-c2690d27ff2076b01afe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 67,
+					"source" : "boost/libs/leaf"
+				},
+				{
+					"build" : "boost/libs/lexical_cast",
+					"jsonFile" : "directory-boost.libs.lexical_cast-Debug-ca12e8f1a28390e18cec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 68,
+					"source" : "boost/libs/lexical_cast"
+				},
+				{
+					"build" : "boost/libs/local_function",
+					"jsonFile" : "directory-boost.libs.local_function-Debug-1b457940e856f657e4cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 69,
+					"source" : "boost/libs/local_function"
+				},
+				{
+					"build" : "boost/libs/locale",
+					"jsonFile" : "directory-boost.libs.locale-Debug-be9d2da51d771cf3daec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 70,
+					"source" : "boost/libs/locale",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "boost/libs/lockfree",
+					"jsonFile" : "directory-boost.libs.lockfree-Debug-43011bb6c7e10664068d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 71,
+					"source" : "boost/libs/lockfree"
+				},
+				{
+					"build" : "boost/libs/log",
+					"jsonFile" : "directory-boost.libs.log-Debug-55d74a5137250186eb81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 72,
+					"source" : "boost/libs/log",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "boost/libs/logic",
+					"jsonFile" : "directory-boost.libs.logic-Debug-304dc0b51b43cd2d9872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 73,
+					"source" : "boost/libs/logic"
+				},
+				{
+					"build" : "boost/libs/math",
+					"jsonFile" : "directory-boost.libs.math-Debug-9f09681e4033b2363f7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 74,
+					"source" : "boost/libs/math"
+				},
+				{
+					"build" : "boost/libs/metaparse",
+					"jsonFile" : "directory-boost.libs.metaparse-Debug-42b1e69c05422d52e731.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 75,
+					"source" : "boost/libs/metaparse"
+				},
+				{
+					"build" : "boost/libs/move",
+					"jsonFile" : "directory-boost.libs.move-Debug-865475ba1737059feb0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 76,
+					"source" : "boost/libs/move"
+				},
+				{
+					"build" : "boost/libs/mp11",
+					"jsonFile" : "directory-boost.libs.mp11-Debug-e6bdeb46c2b6c83bcd23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 77,
+					"source" : "boost/libs/mp11"
+				},
+				{
+					"build" : "boost/libs/mpl",
+					"jsonFile" : "directory-boost.libs.mpl-Debug-ed1b0c904a9c9fe24971.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 78,
+					"source" : "boost/libs/mpl"
+				},
+				{
+					"build" : "boost/libs/msm",
+					"jsonFile" : "directory-boost.libs.msm-Debug-d5d42bdcc9333a974600.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 79,
+					"source" : "boost/libs/msm"
+				},
+				{
+					"build" : "boost/libs/multi_array",
+					"jsonFile" : "directory-boost.libs.multi_array-Debug-a20997a085e800082179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 80,
+					"source" : "boost/libs/multi_array"
+				},
+				{
+					"build" : "boost/libs/multi_index",
+					"jsonFile" : "directory-boost.libs.multi_index-Debug-2534671b4d0080a68f46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 81,
+					"source" : "boost/libs/multi_index"
+				},
+				{
+					"build" : "boost/libs/multiprecision",
+					"jsonFile" : "directory-boost.libs.multiprecision-Debug-3a7014088e0020e8f8e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 82,
+					"source" : "boost/libs/multiprecision"
+				},
+				{
+					"build" : "boost/libs/mysql",
+					"jsonFile" : "directory-boost.libs.mysql-Debug-b15f366cc84da5765c1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 83,
+					"source" : "boost/libs/mysql"
+				},
+				{
+					"build" : "boost/libs/nowide",
+					"jsonFile" : "directory-boost.libs.nowide-Debug-d87c2319db8943584a7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 84,
+					"source" : "boost/libs/nowide",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "boost/libs/numeric/conversion",
+					"jsonFile" : "directory-boost.libs.numeric.conversion-Debug-004abc734fc2ea94a8e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 85,
+					"source" : "boost/libs/numeric/conversion"
+				},
+				{
+					"build" : "boost/libs/numeric/interval",
+					"jsonFile" : "directory-boost.libs.numeric.interval-Debug-d36489b9ff9fda7e0971.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 86,
+					"source" : "boost/libs/numeric/interval"
+				},
+				{
+					"build" : "boost/libs/numeric/odeint",
+					"jsonFile" : "directory-boost.libs.numeric.odeint-Debug-829014c79b16503afbc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 87,
+					"source" : "boost/libs/numeric/odeint"
+				},
+				{
+					"build" : "boost/libs/numeric/ublas",
+					"jsonFile" : "directory-boost.libs.numeric.ublas-Debug-c3d713efcadfba91318a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 88,
+					"source" : "boost/libs/numeric/ublas"
+				},
+				{
+					"build" : "boost/libs/optional",
+					"jsonFile" : "directory-boost.libs.optional-Debug-bd77fca56926e062d546.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 89,
+					"source" : "boost/libs/optional"
+				},
+				{
+					"build" : "boost/libs/outcome",
+					"jsonFile" : "directory-boost.libs.outcome-Debug-512a52c2a0d0a79699f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 90,
+					"source" : "boost/libs/outcome"
+				},
+				{
+					"build" : "boost/libs/parameter",
+					"jsonFile" : "directory-boost.libs.parameter-Debug-280b66697e0b4ee6a71e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 91,
+					"source" : "boost/libs/parameter"
+				},
+				{
+					"build" : "boost/libs/pfr",
+					"jsonFile" : "directory-boost.libs.pfr-Debug-31b63353bd43d7d12245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 92,
+					"source" : "boost/libs/pfr"
+				},
+				{
+					"build" : "boost/libs/phoenix",
+					"jsonFile" : "directory-boost.libs.phoenix-Debug-9fe99621b42b1493b703.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 93,
+					"source" : "boost/libs/phoenix"
+				},
+				{
+					"build" : "boost/libs/poly_collection",
+					"jsonFile" : "directory-boost.libs.poly_collection-Debug-d917dbba7f31e4960c7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 94,
+					"source" : "boost/libs/poly_collection"
+				},
+				{
+					"build" : "boost/libs/polygon",
+					"jsonFile" : "directory-boost.libs.polygon-Debug-4d7de750355fd2694912.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 95,
+					"source" : "boost/libs/polygon"
+				},
+				{
+					"build" : "boost/libs/pool",
+					"jsonFile" : "directory-boost.libs.pool-Debug-945ccaffe7ecb3e2c36c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 96,
+					"source" : "boost/libs/pool"
+				},
+				{
+					"build" : "boost/libs/predef",
+					"jsonFile" : "directory-boost.libs.predef-Debug-be4e7a1b9bf97a72a339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 97,
+					"source" : "boost/libs/predef"
+				},
+				{
+					"build" : "boost/libs/preprocessor",
+					"jsonFile" : "directory-boost.libs.preprocessor-Debug-dadc5f8423faa796b156.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 98,
+					"source" : "boost/libs/preprocessor"
+				},
+				{
+					"build" : "boost/libs/process",
+					"jsonFile" : "directory-boost.libs.process-Debug-7ac1c804277fe8584fad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 99,
+					"source" : "boost/libs/process"
+				},
+				{
+					"build" : "boost/libs/program_options",
+					"jsonFile" : "directory-boost.libs.program_options-Debug-2441a5f3bc12db60fe58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 100,
+					"source" : "boost/libs/program_options",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "boost/libs/property_map",
+					"jsonFile" : "directory-boost.libs.property_map-Debug-453a08f39c5b29869424.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 101,
+					"source" : "boost/libs/property_map"
+				},
+				{
+					"build" : "boost/libs/property_tree",
+					"jsonFile" : "directory-boost.libs.property_tree-Debug-152cc7d5280f5760dbd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 102,
+					"source" : "boost/libs/property_tree"
+				},
+				{
+					"build" : "boost/libs/proto",
+					"jsonFile" : "directory-boost.libs.proto-Debug-80f3fbbdc35a59bdb11e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 103,
+					"source" : "boost/libs/proto"
+				},
+				{
+					"build" : "boost/libs/ptr_container",
+					"jsonFile" : "directory-boost.libs.ptr_container-Debug-76b279141b8badd418bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 104,
+					"source" : "boost/libs/ptr_container"
+				},
+				{
+					"build" : "boost/libs/qvm",
+					"jsonFile" : "directory-boost.libs.qvm-Debug-cd7b3daaf6ea8aacf40e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 105,
+					"source" : "boost/libs/qvm"
+				},
+				{
+					"build" : "boost/libs/random",
+					"jsonFile" : "directory-boost.libs.random-Debug-878eb1f00684caeb0bde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 106,
+					"source" : "boost/libs/random",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "boost/libs/range",
+					"jsonFile" : "directory-boost.libs.range-Debug-761ed5039b2a507db14a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 107,
+					"source" : "boost/libs/range"
+				},
+				{
+					"build" : "boost/libs/ratio",
+					"jsonFile" : "directory-boost.libs.ratio-Debug-82b245831b22c0034da3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 108,
+					"source" : "boost/libs/ratio"
+				},
+				{
+					"build" : "boost/libs/rational",
+					"jsonFile" : "directory-boost.libs.rational-Debug-6c0b4d834671ebe556d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 109,
+					"source" : "boost/libs/rational"
+				},
+				{
+					"build" : "boost/libs/redis",
+					"jsonFile" : "directory-boost.libs.redis-Debug-95bc3e113cd5325f416a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 110,
+					"source" : "boost/libs/redis"
+				},
+				{
+					"build" : "boost/libs/regex",
+					"jsonFile" : "directory-boost.libs.regex-Debug-4566d4917b78eacfa4cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 111,
+					"source" : "boost/libs/regex"
+				},
+				{
+					"build" : "boost/libs/safe_numerics",
+					"jsonFile" : "directory-boost.libs.safe_numerics-Debug-bc469f4ab20df95bb038.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 112,
+					"source" : "boost/libs/safe_numerics"
+				},
+				{
+					"build" : "boost/libs/scope_exit",
+					"jsonFile" : "directory-boost.libs.scope_exit-Debug-608234608ab471961954.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 113,
+					"source" : "boost/libs/scope_exit"
+				},
+				{
+					"build" : "boost/libs/serialization",
+					"jsonFile" : "directory-boost.libs.serialization-Debug-897dcd585953ac2bd12d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 114,
+					"source" : "boost/libs/serialization",
+					"targetIndexes" : 
+					[
+						22,
+						33
+					]
+				},
+				{
+					"build" : "boost/libs/signals2",
+					"jsonFile" : "directory-boost.libs.signals2-Debug-8a2c346a6018ded9e4c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 115,
+					"source" : "boost/libs/signals2"
+				},
+				{
+					"build" : "boost/libs/smart_ptr",
+					"jsonFile" : "directory-boost.libs.smart_ptr-Debug-2eef9f80e157c1f31350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 116,
+					"source" : "boost/libs/smart_ptr"
+				},
+				{
+					"build" : "boost/libs/sort",
+					"jsonFile" : "directory-boost.libs.sort-Debug-7ead0c69bcdd6b754f38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 117,
+					"source" : "boost/libs/sort"
+				},
+				{
+					"build" : "boost/libs/spirit",
+					"jsonFile" : "directory-boost.libs.spirit-Debug-d74afcca4d563054bdbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 118,
+					"source" : "boost/libs/spirit"
+				},
+				{
+					"build" : "boost/libs/stacktrace",
+					"jsonFile" : "directory-boost.libs.stacktrace-Debug-e5e350d1441257c0034e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 119,
+					"source" : "boost/libs/stacktrace",
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "boost/libs/statechart",
+					"jsonFile" : "directory-boost.libs.statechart-Debug-25a774d52758714d272d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 120,
+					"source" : "boost/libs/statechart"
+				},
+				{
+					"build" : "boost/libs/static_assert",
+					"jsonFile" : "directory-boost.libs.static_assert-Debug-6be706018421d78e9f65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 121,
+					"source" : "boost/libs/static_assert"
+				},
+				{
+					"build" : "boost/libs/static_string",
+					"jsonFile" : "directory-boost.libs.static_string-Debug-4d2fe7cd3609b877c526.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 122,
+					"source" : "boost/libs/static_string"
+				},
+				{
+					"build" : "boost/libs/stl_interfaces",
+					"jsonFile" : "directory-boost.libs.stl_interfaces-Debug-969af8a0751ff69b0903.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 123,
+					"source" : "boost/libs/stl_interfaces"
+				},
+				{
+					"build" : "boost/libs/system",
+					"jsonFile" : "directory-boost.libs.system-Debug-43b67ecd8d0dede98345.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 124,
+					"source" : "boost/libs/system"
+				},
+				{
+					"build" : "boost/libs/test",
+					"jsonFile" : "directory-boost.libs.test-Debug-e53d4e628ea1ca1bff4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 125,
+					"source" : "boost/libs/test",
+					"targetIndexes" : 
+					[
+						19,
+						26,
+						30
+					]
+				},
+				{
+					"build" : "boost/libs/thread",
+					"jsonFile" : "directory-boost.libs.thread-Debug-c1948c7d3999f8601c54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 126,
+					"source" : "boost/libs/thread",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "boost/libs/throw_exception",
+					"jsonFile" : "directory-boost.libs.throw_exception-Debug-66ca5118412ef4447abb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 127,
+					"source" : "boost/libs/throw_exception"
+				},
+				{
+					"build" : "boost/libs/timer",
+					"jsonFile" : "directory-boost.libs.timer-Debug-baaf10ab0f80409e4b00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 128,
+					"source" : "boost/libs/timer",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "boost/libs/tokenizer",
+					"jsonFile" : "directory-boost.libs.tokenizer-Debug-50269e4baa5dd9802b3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 129,
+					"source" : "boost/libs/tokenizer"
+				},
+				{
+					"build" : "boost/libs/tti",
+					"jsonFile" : "directory-boost.libs.tti-Debug-a7ac0162a304a5d11aca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 130,
+					"source" : "boost/libs/tti"
+				},
+				{
+					"build" : "boost/libs/tuple",
+					"jsonFile" : "directory-boost.libs.tuple-Debug-994484836d8c40d707c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 131,
+					"source" : "boost/libs/tuple"
+				},
+				{
+					"build" : "boost/libs/type_erasure",
+					"jsonFile" : "directory-boost.libs.type_erasure-Debug-07839a13f191940845ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 132,
+					"source" : "boost/libs/type_erasure",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "boost/libs/type_index",
+					"jsonFile" : "directory-boost.libs.type_index-Debug-a40462549a9692b7d7dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 133,
+					"source" : "boost/libs/type_index"
+				},
+				{
+					"build" : "boost/libs/type_traits",
+					"jsonFile" : "directory-boost.libs.type_traits-Debug-af86da93cdb67ef10a21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 134,
+					"source" : "boost/libs/type_traits"
+				},
+				{
+					"build" : "boost/libs/typeof",
+					"jsonFile" : "directory-boost.libs.typeof-Debug-806d08c56857bf769186.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 135,
+					"source" : "boost/libs/typeof"
+				},
+				{
+					"build" : "boost/libs/units",
+					"jsonFile" : "directory-boost.libs.units-Debug-e79b1f642552eacd20f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 136,
+					"source" : "boost/libs/units"
+				},
+				{
+					"build" : "boost/libs/unordered",
+					"jsonFile" : "directory-boost.libs.unordered-Debug-171dafb8a26a86efd33d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 137,
+					"source" : "boost/libs/unordered"
+				},
+				{
+					"build" : "boost/libs/url",
+					"jsonFile" : "directory-boost.libs.url-Debug-04170100a358953fe50b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 138,
+					"source" : "boost/libs/url",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "boost/libs/utility",
+					"jsonFile" : "directory-boost.libs.utility-Debug-ef3ce66533c280979623.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 139,
+					"source" : "boost/libs/utility"
+				},
+				{
+					"build" : "boost/libs/uuid",
+					"jsonFile" : "directory-boost.libs.uuid-Debug-fc47b38a09341f1792d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 140,
+					"source" : "boost/libs/uuid"
+				},
+				{
+					"build" : "boost/libs/variant",
+					"jsonFile" : "directory-boost.libs.variant-Debug-3183a6fa8995be813def.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 141,
+					"source" : "boost/libs/variant"
+				},
+				{
+					"build" : "boost/libs/variant2",
+					"jsonFile" : "directory-boost.libs.variant2-Debug-8ac797a84edbcd076123.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 142,
+					"source" : "boost/libs/variant2"
+				},
+				{
+					"build" : "boost/libs/vmd",
+					"jsonFile" : "directory-boost.libs.vmd-Debug-699bd50ad402e7859a39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 143,
+					"source" : "boost/libs/vmd"
+				},
+				{
+					"build" : "boost/libs/wave",
+					"jsonFile" : "directory-boost.libs.wave-Debug-aa498360279a25bbe5b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 144,
+					"source" : "boost/libs/wave",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "boost/libs/winapi",
+					"jsonFile" : "directory-boost.libs.winapi-Debug-d296665ccd4468146e0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 145,
+					"source" : "boost/libs/winapi"
+				},
+				{
+					"build" : "boost/libs/xpressive",
+					"jsonFile" : "directory-boost.libs.xpressive-Debug-a9d4abd27905d668ee5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 146,
+					"source" : "boost/libs/xpressive"
+				},
+				{
+					"build" : "boost/libs/yap",
+					"jsonFile" : "directory-boost.libs.yap-Debug-0507845ac62be8b8b22f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 147,
+					"source" : "boost/libs/yap"
+				},
+				{
+					"build" : "external/googletest",
+					"childIndexes" : 
+					[
+						149
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest-Debug-3a12ac207878cfe17c6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 148,
+					"source" : "external/googletest"
+				},
+				{
+					"build" : "external/googletest/googlemock",
+					"childIndexes" : 
+					[
+						150
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest.googlemock-Debug-59b250fb029d03e3502c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 148,
+					"projectIndex" : 149,
+					"source" : "external/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						34,
+						35
+					]
+				},
+				{
+					"build" : "external/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest.googletest-Debug-83475cec1261ff585201.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 149,
+					"projectIndex" : 150,
+					"source" : "external/googletest/googletest",
+					"targetIndexes" : 
+					[
+						36,
+						37
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						148
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pcsc_project",
+					"targetIndexes" : 
+					[
+						38,
+						39
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Boost",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "boost_accumulators",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "boost_algorithm",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "boost_align",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "boost_any",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "boost_array",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "boost_asio",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "boost_assert",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boost_assign",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "boost_atomic",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "boost_beast",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "boost_bimap",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "boost_bind",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "boost_callable_traits",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "boost_chrono",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "boost_circular_buffer",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "boost_cobalt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "boost_compat",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "boost_compatibility",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "boost_compute",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "boost_concept_check",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "boost_config",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "boost_container",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "boost_container_hash",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "boost_context",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "boost_contract",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "boost_conversion",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "boost_convert",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "boost_core",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "boost_coroutine",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "boost_coroutine2",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "boost_crc",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "boost_date_time",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "boost_describe",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "boost_detail",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "boost_dll",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "boost_dynamic_bitset",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "boost_endian",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "boost_exception",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "boost_fiber",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "BoostFilesystem",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "boost_flyweight",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "boost_foreach",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "boost_format",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						45
+					],
+					"name" : "boost_function",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46
+					],
+					"name" : "boost_function_types",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						47
+					],
+					"name" : "boost_functional",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						48
+					],
+					"name" : "boost_fusion",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						49
+					],
+					"name" : "boost_geometry",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50
+					],
+					"name" : "boost_gil",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						51
+					],
+					"name" : "boost_graph",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						52
+					],
+					"name" : "boost_hana",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						53
+					],
+					"name" : "boost_headers",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						54
+					],
+					"name" : "boost_heap",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						55
+					],
+					"name" : "boost_histogram",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						56
+					],
+					"name" : "boost_hof",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						57
+					],
+					"name" : "boost_icl",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						58
+					],
+					"name" : "boost_integer",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						59
+					],
+					"name" : "boost_interprocess",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						60
+					],
+					"name" : "boost_intrusive",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						61
+					],
+					"name" : "boost_io",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						62
+					],
+					"name" : "boost_iostreams",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						63
+					],
+					"name" : "boost_iterator",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						64
+					],
+					"name" : "boost_json",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						65
+					],
+					"name" : "boost_lambda",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						66
+					],
+					"name" : "boost_lambda2",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						67
+					],
+					"name" : "boost_leaf",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						68
+					],
+					"name" : "boost_lexical_cast",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						69
+					],
+					"name" : "boost_local_function",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						70
+					],
+					"name" : "boost_locale",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						71
+					],
+					"name" : "boost_lockfree",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						72
+					],
+					"name" : "BoostLog",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						73
+					],
+					"name" : "boost_logic",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						74
+					],
+					"name" : "boost_math",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						75
+					],
+					"name" : "boost_metaparse",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						76
+					],
+					"name" : "boost_move",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						77
+					],
+					"name" : "boost_mp11",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						78
+					],
+					"name" : "boost_mpl",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						79
+					],
+					"name" : "boost_msm",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						80
+					],
+					"name" : "boost_multi_array",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						81
+					],
+					"name" : "boost_multi_index",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						82
+					],
+					"name" : "boost_multiprecision",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						83
+					],
+					"name" : "boost_mysql",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						84
+					],
+					"name" : "boost_nowide",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						85
+					],
+					"name" : "boost_numeric_conversion",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						86
+					],
+					"name" : "boost_numeric_interval",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						87
+					],
+					"name" : "boost_numeric_odeint",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						88
+					],
+					"name" : "boost_numeric_ublas",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						89
+					],
+					"name" : "boost_optional",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						90
+					],
+					"name" : "boost_outcome",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						91
+					],
+					"name" : "boost_parameter",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						92
+					],
+					"name" : "boost_pfr",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						93
+					],
+					"name" : "boost_phoenix",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						94
+					],
+					"name" : "boost_poly_collection",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						95
+					],
+					"name" : "boost_polygon",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						96
+					],
+					"name" : "boost_pool",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						97
+					],
+					"name" : "boost_predef",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						98
+					],
+					"name" : "boost_preprocessor",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						99
+					],
+					"name" : "boost_process",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						100
+					],
+					"name" : "boost_program_options",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						101
+					],
+					"name" : "boost_property_map",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						102
+					],
+					"name" : "boost_property_tree",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						103
+					],
+					"name" : "boost_proto",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						104
+					],
+					"name" : "boost_ptr_container",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						105
+					],
+					"name" : "boost_qvm",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						106
+					],
+					"name" : "boost_random",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						107
+					],
+					"name" : "boost_range",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						108
+					],
+					"name" : "boost_ratio",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						109
+					],
+					"name" : "boost_rational",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						110
+					],
+					"name" : "boost_redis",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						111
+					],
+					"name" : "boost_regex",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						112
+					],
+					"name" : "boost_safe_numerics",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						113
+					],
+					"name" : "boost_scope_exit",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						114
+					],
+					"name" : "boost_serialization",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						22,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						115
+					],
+					"name" : "boost_signals2",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						116
+					],
+					"name" : "boost_smart_ptr",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						117
+					],
+					"name" : "boost_sort",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						118
+					],
+					"name" : "boost_spirit",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						119
+					],
+					"name" : "boost_stacktrace",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						120
+					],
+					"name" : "boost_statechart",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						121
+					],
+					"name" : "boost_static_assert",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						122
+					],
+					"name" : "boost_static_string",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						123
+					],
+					"name" : "boost_stl_interfaces",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						124
+					],
+					"name" : "boost_system",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						125
+					],
+					"name" : "boost_test",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						19,
+						26,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						126
+					],
+					"name" : "boost_thread",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						127
+					],
+					"name" : "boost_throw_exception",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						128
+					],
+					"name" : "boost_timer",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						129
+					],
+					"name" : "boost_tokenizer",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						130
+					],
+					"name" : "boost_tti",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						131
+					],
+					"name" : "boost_tuple",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						132
+					],
+					"name" : "boost_type_erasure",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						133
+					],
+					"name" : "boost_type_index",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						134
+					],
+					"name" : "boost_type_traits",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						135
+					],
+					"name" : "boost_typeof",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						136
+					],
+					"name" : "boost_units",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						137
+					],
+					"name" : "boost_unordered",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						138
+					],
+					"name" : "boost_url",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						139
+					],
+					"name" : "boost_utility",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						140
+					],
+					"name" : "boost_uuid",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						141
+					],
+					"name" : "boost_variant",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						142
+					],
+					"name" : "boost_variant2",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						143
+					],
+					"name" : "boost_vmd",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						144
+					],
+					"name" : "boost_wave",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						145
+					],
+					"name" : "boost_winapi",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						146
+					],
+					"name" : "boost_xpressive",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						147
+					],
+					"name" : "boost_yap",
+					"parentIndex" : 1
+				},
+				{
+					"childIndexes" : 
+					[
+						149
+					],
+					"directoryIndexes" : 
+					[
+						148
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						150
+					],
+					"directoryIndexes" : 
+					[
+						149
+					],
+					"name" : "gmock",
+					"parentIndex" : 148,
+					"targetIndexes" : 
+					[
+						34,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						150
+					],
+					"name" : "gtest",
+					"parentIndex" : 149,
+					"targetIndexes" : 
+					[
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "boost_atomic::@42f15e9ff3e79e033b70",
+					"jsonFile" : "target-boost_atomic-Debug-3ed6476b68be7905b7e8.json",
+					"name" : "boost_atomic",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "boost_chrono::@82ff546b39cd3054e0b1",
+					"jsonFile" : "target-boost_chrono-Debug-09ccacf2c69118a3c3d9.json",
+					"name" : "boost_chrono",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "boost_cobalt::@ccf5e84b4b2eb203d094",
+					"jsonFile" : "target-boost_cobalt-Debug-9b35bc962d38889d0901.json",
+					"name" : "boost_cobalt",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "boost_container::@3d180fe44b418caae71d",
+					"jsonFile" : "target-boost_container-Debug-ce497c75779e65cb0fd9.json",
+					"name" : "boost_container",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "boost_context::@e132a3eca0fd3cf65fbf",
+					"jsonFile" : "target-boost_context-Debug-05c9c2a705ce1a02319e.json",
+					"name" : "boost_context",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "boost_contract::@71d0cdc44a49da80c8a7",
+					"jsonFile" : "target-boost_contract-Debug-620e9f9ae1f504ee79fa.json",
+					"name" : "boost_contract",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "boost_coroutine::@00326602aa5630c1ff9c",
+					"jsonFile" : "target-boost_coroutine-Debug-5397ce681ea4bbbae5b4.json",
+					"name" : "boost_coroutine",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "boost_date_time::@2f1ce3b579f409916b72",
+					"jsonFile" : "target-boost_date_time-Debug-3b537cc7b9fdc1c19563.json",
+					"name" : "boost_date_time",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "boost_exception::@c961ecb5624d15834156",
+					"jsonFile" : "target-boost_exception-Debug-714bdb9b94fd01089186.json",
+					"name" : "boost_exception",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "boost_fiber::@04e7df26e36852e28a56",
+					"jsonFile" : "target-boost_fiber-Debug-b53ab13d74f0bf4b959c.json",
+					"name" : "boost_fiber",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "boost_fiber_numa::@04e7df26e36852e28a56",
+					"jsonFile" : "target-boost_fiber_numa-Debug-548f7176f9b9a3cf676e.json",
+					"name" : "boost_fiber_numa",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "boost_filesystem::@651beead4a5cb8f9afe7",
+					"jsonFile" : "target-boost_filesystem-Debug-4f40ff743ce376d9fa51.json",
+					"name" : "boost_filesystem",
+					"projectIndex" : 41
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "boost_graph::@3bda02339a0148aa9f95",
+					"jsonFile" : "target-boost_graph-Debug-37390f61fadd8ed90f9a.json",
+					"name" : "boost_graph",
+					"projectIndex" : 51
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "boost_iostreams::@1fed28307ee5a97c6d21",
+					"jsonFile" : "target-boost_iostreams-Debug-0612a372ca710a0081a5.json",
+					"name" : "boost_iostreams",
+					"projectIndex" : 62
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "boost_json::@a67c3b46c17b1e92468c",
+					"jsonFile" : "target-boost_json-Debug-0bfcf5daa1640a35b8a5.json",
+					"name" : "boost_json",
+					"projectIndex" : 64
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "boost_locale::@de33061f096aeb098aab",
+					"jsonFile" : "target-boost_locale-Debug-3898964b1987eb0dd334.json",
+					"name" : "boost_locale",
+					"projectIndex" : 70
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "boost_log::@2a7cc099ccb2309a178e",
+					"jsonFile" : "target-boost_log-Debug-07b9d5225c5b6afd5bd6.json",
+					"name" : "boost_log",
+					"projectIndex" : 72
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "boost_log_setup::@2a7cc099ccb2309a178e",
+					"jsonFile" : "target-boost_log_setup-Debug-155beff171d3996b992a.json",
+					"name" : "boost_log_setup",
+					"projectIndex" : 72
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "boost_nowide::@3e05014e3b29bb0d53e0",
+					"jsonFile" : "target-boost_nowide-Debug-20fd011c6a0275bbf46a.json",
+					"name" : "boost_nowide",
+					"projectIndex" : 84
+				},
+				{
+					"directoryIndex" : 125,
+					"id" : "boost_prg_exec_monitor::@5652880cebf1d8eef6bc",
+					"jsonFile" : "target-boost_prg_exec_monitor-Debug-1542306f4b748ded850d.json",
+					"name" : "boost_prg_exec_monitor",
+					"projectIndex" : 125
+				},
+				{
+					"directoryIndex" : 100,
+					"id" : "boost_program_options::@dae0fd03782ede35170f",
+					"jsonFile" : "target-boost_program_options-Debug-14f637536a694e18c1a3.json",
+					"name" : "boost_program_options",
+					"projectIndex" : 100
+				},
+				{
+					"directoryIndex" : 106,
+					"id" : "boost_random::@8dc33778bd1e2b8e18a6",
+					"jsonFile" : "target-boost_random-Debug-069fd250968a92e95672.json",
+					"name" : "boost_random",
+					"projectIndex" : 106
+				},
+				{
+					"directoryIndex" : 114,
+					"id" : "boost_serialization::@1b3cce2230b24f7df61e",
+					"jsonFile" : "target-boost_serialization-Debug-8ffc6d00e82c8b17d8b4.json",
+					"name" : "boost_serialization",
+					"projectIndex" : 114
+				},
+				{
+					"directoryIndex" : 119,
+					"id" : "boost_stacktrace_addr2line::@4bd56fa5106a543d2b0b",
+					"jsonFile" : "target-boost_stacktrace_addr2line-Debug-db633396dca31530beea.json",
+					"name" : "boost_stacktrace_addr2line",
+					"projectIndex" : 119
+				},
+				{
+					"directoryIndex" : 119,
+					"id" : "boost_stacktrace_basic::@4bd56fa5106a543d2b0b",
+					"jsonFile" : "target-boost_stacktrace_basic-Debug-3e94e67e395380d7e331.json",
+					"name" : "boost_stacktrace_basic",
+					"projectIndex" : 119
+				},
+				{
+					"directoryIndex" : 119,
+					"id" : "boost_stacktrace_noop::@4bd56fa5106a543d2b0b",
+					"jsonFile" : "target-boost_stacktrace_noop-Debug-805cc224fae7470b72da.json",
+					"name" : "boost_stacktrace_noop",
+					"projectIndex" : 119
+				},
+				{
+					"directoryIndex" : 125,
+					"id" : "boost_test_exec_monitor::@5652880cebf1d8eef6bc",
+					"jsonFile" : "target-boost_test_exec_monitor-Debug-56ea55d379bfb263c703.json",
+					"name" : "boost_test_exec_monitor",
+					"projectIndex" : 125
+				},
+				{
+					"directoryIndex" : 126,
+					"id" : "boost_thread::@6e08afa19544ca50a13e",
+					"jsonFile" : "target-boost_thread-Debug-fa8c119430c822367198.json",
+					"name" : "boost_thread",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 128,
+					"id" : "boost_timer::@b0570c2feb22a0d10ced",
+					"jsonFile" : "target-boost_timer-Debug-069d9afb2884cf9e0546.json",
+					"name" : "boost_timer",
+					"projectIndex" : 128
+				},
+				{
+					"directoryIndex" : 132,
+					"id" : "boost_type_erasure::@1c7003ce7664f4536e7d",
+					"jsonFile" : "target-boost_type_erasure-Debug-2a24b399da3175be56bf.json",
+					"name" : "boost_type_erasure",
+					"projectIndex" : 132
+				},
+				{
+					"directoryIndex" : 125,
+					"id" : "boost_unit_test_framework::@5652880cebf1d8eef6bc",
+					"jsonFile" : "target-boost_unit_test_framework-Debug-8da1d585fbe31d114b61.json",
+					"name" : "boost_unit_test_framework",
+					"projectIndex" : 125
+				},
+				{
+					"directoryIndex" : 138,
+					"id" : "boost_url::@90607c803a5ff9010abe",
+					"jsonFile" : "target-boost_url-Debug-79e293d910ccc64ac472.json",
+					"name" : "boost_url",
+					"projectIndex" : 138
+				},
+				{
+					"directoryIndex" : 144,
+					"id" : "boost_wave::@300a682207fa5caefbe5",
+					"jsonFile" : "target-boost_wave-Debug-7632ebf9168adf88e4a6.json",
+					"name" : "boost_wave",
+					"projectIndex" : 144
+				},
+				{
+					"directoryIndex" : 114,
+					"id" : "boost_wserialization::@1b3cce2230b24f7df61e",
+					"jsonFile" : "target-boost_wserialization-Debug-4985dc4dd5f486d95c3a.json",
+					"name" : "boost_wserialization",
+					"projectIndex" : 114
+				},
+				{
+					"directoryIndex" : 149,
+					"id" : "gmock::@9bb205edeb8367ae50f5",
+					"jsonFile" : "target-gmock-Debug-378c1864650c12cadd29.json",
+					"name" : "gmock",
+					"projectIndex" : 149
+				},
+				{
+					"directoryIndex" : 149,
+					"id" : "gmock_main::@9bb205edeb8367ae50f5",
+					"jsonFile" : "target-gmock_main-Debug-ff0f7738ecc680eb04d9.json",
+					"name" : "gmock_main",
+					"projectIndex" : 149
+				},
+				{
+					"directoryIndex" : 150,
+					"id" : "gtest::@405f3af846dabb1ba1ce",
+					"jsonFile" : "target-gtest-Debug-19eeed67590ebd4d52ef.json",
+					"name" : "gtest",
+					"projectIndex" : 150
+				},
+				{
+					"directoryIndex" : 150,
+					"id" : "gtest_main::@405f3af846dabb1ba1ce",
+					"jsonFile" : "target-gtest_main-Debug-f50ffb7233f820013b49.json",
+					"name" : "gtest_main",
+					"projectIndex" : 150
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-26f21614a311ec56ae07.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-bf8d3eeba3eac03db744.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jiayewei927/Desktop/pcsc-project-2/cmake-build-debug",
+		"source" : "/Users/jiayewei927/Desktop/pcsc-project-2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

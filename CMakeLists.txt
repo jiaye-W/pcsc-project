@@ -1,9 +1,19 @@
 cmake_minimum_required(VERSION 3.26.4)
 project(pcsc_project)
 
-
 add_subdirectory(boost)
 add_subdirectory(external/googletest)
+
+# Target.
+add_library(gnuplot_iostream INTERFACE)
+target_include_directories(gnuplot_iostream INTERFACE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/gnuplot-iostream>
+        $<INSTALL_INTERFACE:>)
+target_link_libraries(gnuplot_iostream INTERFACE
+        Boost::iostreams
+        Boost::system
+        Boost::filesystem
+)
 
 # Main executable
 add_executable(main
@@ -52,10 +62,9 @@ add_executable(test
         src/Functions/VectorFunction.cpp
 )
 
-target_link_libraries(main Boost::iostreams Boost::filesystem Boost::system Boost::math)
-
-# Link against Google Test and Boost libraries
 target_include_directories(main PRIVATE gnuplot-iostream)
 
-# Link against Google Test and Boost libraries
-target_link_libraries(test PRIVATE gtest gtest_main)
+target_compile_features(main PRIVATE cxx_std_17)
+
+target_link_libraries(main PRIVATE Boost::iostreams Boost::filesystem Boost::system Boost::math gnuplot_iostream)
+target_link_libraries(test PRIVATE gtest gtest_main Boost::math)
