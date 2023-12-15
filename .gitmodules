@@ -8,3 +8,6 @@
 [submodule "gnuplot-iostream"]
 	path = gnuplot-iostream
 	url = https://github.com/dstahlke/gnuplot-iostream.git
+[submodule "external/gnuplot"]
+	path = external/gnuplot
+	url = https://github.com/gnuplot/gnuplot.git

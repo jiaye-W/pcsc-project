@@ -1,0 +1,257 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "boost/libs/coroutine/libboost_coroutine.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"boost/libs/coroutine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTEXT_EXPORT="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTEXT_NO_LIB="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONTEXT_STATIC_LINK="
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_COROUTINES_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_COROUTINE_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_COROUTINE_SOURCE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_COROUTINE_STATIC_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/coroutine/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/context/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/mp11/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/pool/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/integer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/winapi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/predef/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/move/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/exception/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/tuple/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/variant2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/utility/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/io/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jiayewei927/Desktop/pcsc-project-2/boost/libs/preprocessor/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "boost_context::@e132a3eca0fd3cf65fbf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost_exception::@c961ecb5624d15834156"
+		}
+	],
+	"id" : "boost_coroutine::@00326602aa5630c1ff9c",
+	"name" : "boost_coroutine",
+	"nameOnDisk" : "libboost_coroutine.a",
+	"paths" : 
+	{
+		"build" : "boost/libs/coroutine",
+		"source" : "boost/libs/coroutine"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/coroutine/src/detail/coroutine_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/coroutine/src/exceptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boost/libs/coroutine/src/posix/stack_traits.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

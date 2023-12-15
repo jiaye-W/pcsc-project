@@ -9,7 +9,6 @@ add_subdirectory(external/googletest)
 add_executable(main
         main.cpp
 
-
         src/rng/RNG.h
         src/rng/RNG.cpp
         src/rng/Uniform-rng/UniformRNG.h
@@ -53,11 +52,10 @@ add_executable(test
         src/Functions/VectorFunction.cpp
 )
 
+target_link_libraries(main Boost::iostreams Boost::filesystem Boost::system Boost::math)
 
 # Link against Google Test and Boost libraries
 target_include_directories(main PRIVATE gnuplot-iostream)
 
 # Link against Google Test and Boost libraries
-target_link_libraries(test PRIVATE gtest gtest_main Boost::iostreams Boost::filesystem Boost::math)
-
-target_link_libraries(main PRIVATE  Boost::iostreams Boost::filesystem Boost::math)
+target_link_libraries(test PRIVATE gtest gtest_main)
