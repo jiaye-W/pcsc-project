@@ -4670,9 +4670,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jiayewei927/Documents/pcsc-project/Tests/test.cpp">
-			<Option target="test"/>
-		</Unit>
 		<Unit filename="/Users/jiayewei927/Documents/pcsc-project/external/boost/libs/atomic/src/lock_pool.cpp">
 			<Option target="boost_atomic"/>
 		</Unit>
@@ -6751,6 +6748,9 @@
 		</Unit>
 		<Unit filename="/Users/jiayewei927/Documents/pcsc-project/src/rng/Uniform-rng/UniformRNG.h">
 			<Option target="main"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/jiayewei927/Documents/pcsc-project/test.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/Users/jiayewei927/Documents/pcsc-project/CMakeLists.txt">

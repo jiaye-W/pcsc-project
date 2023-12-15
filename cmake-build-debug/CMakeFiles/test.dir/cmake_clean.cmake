@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/Tests/test.cpp.o"
-  "CMakeFiles/test.dir/Tests/test.cpp.o.d"
   "CMakeFiles/test.dir/src/Computations/ExpectedValue.cpp.o"
   "CMakeFiles/test.dir/src/Computations/ExpectedValue.cpp.o.d"
   "CMakeFiles/test.dir/src/Computations/StatisticalMoments.cpp.o"
@@ -17,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/src/rng/RNG.cpp.o.d"
   "CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.o"
   "CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.o.d"
+  "CMakeFiles/test.dir/test.cpp.o"
+  "CMakeFiles/test.dir/test.cpp.o.d"
   "test"
   "test.pdb"
 )

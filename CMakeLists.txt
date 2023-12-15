@@ -43,7 +43,7 @@ add_executable(main
 )
 
 add_executable(test
-        Tests/test.cpp
+        test.cpp
         src/rng/RNG.h
         src/rng/RNG.cpp
         src/rng/Uniform-rng/UniformRNG.h

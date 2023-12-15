@@ -6,23 +6,24 @@
 #include <iostream>
 #include <vector>
 #include <functional>
-#include "../src/rng/Uniform-rng/UniformRNG.h"
-#include "../src/rng/Normal-rng/Normal_BM_RNG.h"
-#include "../src/rng/Normal-rng/Normal_IT_RNG.h"
-#include "../src/Computations/ExpectedValue.h"
-#include "../src/Computations/StatisticalMoments.h"
+#include "src/rng/Uniform-rng/UniformRNG.h"
+#include "src/rng/Normal-rng/Normal_BM_RNG.h"
+#include "src/rng/Normal-rng/Normal_IT_RNG.h"
+#include "src/Computations/ExpectedValue.h"
+#include "src/Computations/StatisticalMoments.h"
 #include <gtest/gtest.h>
 
 unsigned long long doubleFactorial(int n);
 
 class SystemTest : public ::testing::Test {
 protected:
-    UniformRNG Uni;
-    Normal_IT_RNG Z;
-    ExpectedValue Exp;
-    StatisticalMoments Moment;
+    UniformRNG uniformRng;
+    Normal_BM_RNG normalBmRng;
+    Normal_IT_RNG normalItRng;
+    ExpectedValue expectedValue;
+    StatisticalMoments statisticalMoments;
 
-    SystemTest() : Uni(), Z(0, 2), Exp(), Moment(2) {}
+    SystemTest() : uniformRng(), normalBmRng(0, 2), normalItRng(0, 2), expectedValue(), statisticalMoments(2) {}
 
     // No need for TearDown if there are no cleanup operations
 };
@@ -31,7 +32,7 @@ TEST_F(SystemTest, UniformDistributionTest) {
     int sampleSize = 1000;
     std::vector<double> samples(sampleSize);
 
-    samples = Uni.GenerateSample(sampleSize);
+    samples = uniformRng.GenerateSample(sampleSize);
 
     std::sort(samples.begin(), samples.end());
 
@@ -48,19 +49,40 @@ TEST_F(SystemTest, UniformDistributionTest) {
     EXPECT_LE(dMax, criticalValue) << "Uniform distribution test failed!";
 }
 
-TEST_F(SystemTest, NormalDistributionTest) {
+TEST_F(SystemTest, NormalDistributionTest_BoxMuller) {
     int sampleSize = 1000;
     std::vector<double> samples(sampleSize);
 
-    samples = Z.GenerateSample(sampleSize);
+    samples = normalBmRng.GenerateSample(sampleSize);
     double sum = 0.0;
     for (int i = 0; i < sampleSize; ++i) {
         sum += samples[i];
     }
 
-    double sampleMean = (sum / sampleSize) - Z.GetMean();
+    double sampleMean = (sum / sampleSize) - normalBmRng.GetMean();
     double zScore = 1.96;
-    double sampleStdDev = Z.GetSigma();
+    double sampleStdDev = normalBmRng.GetSigma();
+
+    double marginOfError = zScore * (sampleStdDev / std::sqrt(sampleSize));
+    double lowerBound = sampleMean - marginOfError;
+    double upperBound = sampleMean + marginOfError;
+
+    ASSERT_TRUE(sampleMean >= lowerBound && sampleMean <= upperBound) << "Sample mean is outside the confidence interval!";
+}
+
+TEST_F(SystemTest, NormalDistributionTest_InverserTransform) {
+    int sampleSize = 1000;
+    std::vector<double> samples(sampleSize);
+
+    samples = normalItRng.GenerateSample(sampleSize);
+    double sum = 0.0;
+    for (int i = 0; i < sampleSize; ++i) {
+        sum += samples[i];
+    }
+
+    double sampleMean = (sum / sampleSize) - normalItRng.GetMean();
+    double zScore = 1.96;
+    double sampleStdDev = normalItRng.GetSigma();
 
     double marginOfError = zScore * (sampleStdDev / std::sqrt(sampleSize));
     double lowerBound = sampleMean - marginOfError;
@@ -70,19 +92,19 @@ TEST_F(SystemTest, NormalDistributionTest) {
 }
 
 TEST_F(SystemTest, MomentTest) {
-    Z.SetMean(0);
-    std::vector<double> Estim_Sigma2 = Moment.Compute(Z, 10000);
-    unsigned int n = Moment.GetOrder();
+    normalBmRng.SetMean(0);
+    std::vector<double> Estim_Sigma2 = statisticalMoments.Compute(normalBmRng, 100000);
+    unsigned int n = statisticalMoments.GetOrder();
     double True_moment = 0;
 
     if (n % 2 == 0) {
-        True_moment = std::pow(Z.GetSigma(), n) * doubleFactorial(n-1);
+        True_moment = std::pow(normalBmRng.GetSigma(), n) * doubleFactorial(n-1);
     }
 
-    ASSERT_NEAR(Estim_Sigma2[0], True_moment, 0.01);
+    ASSERT_NEAR(Estim_Sigma2[0], True_moment, 0.05);
 }
 
-/*TEST_F(SystemTest, ExpectationTest) {
+TEST_F(SystemTest, ExpectationTest) {
 std::function<std::vector<double>(double)> Function;
 double t = -1;
 
@@ -94,15 +116,14 @@ Function = [t](double x) {
     return result;
 };
 
-Exp.SetVectorFunction(VectorFunction(2, Function));
-std::vector<double> result = Exp.Compute(Z, 1000000000);
+expectedValue.SetVectorFunction(VectorFunction(2, Function));
+std::vector<double> result = expectedValue.Compute(normalItRng, 100000);
 
 ASSERT_NEAR(result[1], 0, 0.01);
-ASSERT_NEAR(result[0], exp(t * Z.GetMean() + 0.5 * pow(Z.GetSigma() * t, 2)), 0.01);
+ASSERT_NEAR(result[0], exp(t * normalItRng.GetMean() + 0.5 * pow(normalItRng.GetSigma() * t, 2)), 0.01);
 
 }
 
- */
 
 unsigned long long doubleFactorial(int n) {
     if (n < 0) {

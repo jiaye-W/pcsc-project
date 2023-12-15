@@ -17,10 +17,8 @@ void print_vector(std::vector<double> &v)
     std::cout << ")\n";
 }
 
-int main(int argc, char **argv)
+int main(int argc, char* argv[])
 {
-
-
     // Introduction
     std::cout << "Hello! This is an application of our Monte-Carlo project.\n" << std::endl;
 
@@ -158,7 +156,6 @@ int main(int argc, char **argv)
 
             break;
         }
-
     }
 }
 

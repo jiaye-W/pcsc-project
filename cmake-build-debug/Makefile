@@ -682,30 +682,6 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-Tests/test.o: Tests/test.cpp.o
-.PHONY : Tests/test.o
-
-# target to build an object file
-Tests/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Tests/test.cpp.o
-.PHONY : Tests/test.cpp.o
-
-Tests/test.i: Tests/test.cpp.i
-.PHONY : Tests/test.i
-
-# target to preprocess a source file
-Tests/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Tests/test.cpp.i
-.PHONY : Tests/test.cpp.i
-
-Tests/test.s: Tests/test.cpp.s
-.PHONY : Tests/test.s
-
-# target to generate assembly for a file
-Tests/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Tests/test.cpp.s
-.PHONY : Tests/test.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -970,6 +946,30 @@ src/rng/Uniform-rng/UniformRNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/rng/Uniform-rng/UniformRNG.cpp.s
 .PHONY : src/rng/Uniform-rng/UniformRNG.cpp.s
 
+test.o: test.cpp.o
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1022,9 +1022,6 @@ help:
 	@echo "... gtest_main"
 	@echo "... main"
 	@echo "... test"
-	@echo "... Tests/test.o"
-	@echo "... Tests/test.i"
-	@echo "... Tests/test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -1055,6 +1052,9 @@ help:
 	@echo "... src/rng/Uniform-rng/UniformRNG.o"
 	@echo "... src/rng/Uniform-rng/UniformRNG.i"
 	@echo "... src/rng/Uniform-rng/UniformRNG.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
