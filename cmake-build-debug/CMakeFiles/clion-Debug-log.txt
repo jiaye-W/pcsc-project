@@ -1,88 +1,30 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\EPFL\GitHub\pcsc-project-1 -B D:\EPFL\GitHub\pcsc-project-1\cmake-build-debug
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/jiayewei927/Desktop/pcsc-project -B /Users/jiayewei927/Desktop/pcsc-project/cmake-build-debug
+-- The C compiler identification is AppleClang 15.0.0.15000100
+-- The CXX compiler identification is AppleClang 15.0.0.15000100
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:4 (add_subdirectory):
+  The source directory
 
-    CodeBlocks
+    /Users/jiayewei927/Desktop/pcsc-project/external/boost
 
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
+  does not contain a CMakeLists.txt file.
 
 
--- Boost: Debug build, static libraries, MPI OFF, Python OFF, testing OFF
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Performing Test BOOST_ATOMIC_TARGET_X86
--- Performing Test BOOST_ATOMIC_TARGET_X86 - Success
--- Performing Test BOOST_ATOMIC_COMPILER_HAS_SSE2
--- Performing Test BOOST_ATOMIC_COMPILER_HAS_SSE2 - Success
--- Performing Test BOOST_ATOMIC_COMPILER_HAS_SSE41
--- Performing Test BOOST_ATOMIC_COMPILER_HAS_SSE41 - Success
--- Performing Test BOOST_ATOMIC_HAS_SYNCHRONIZATION_LIB
--- Performing Test BOOST_ATOMIC_HAS_SYNCHRONIZATION_LIB - Success
--- Boost.Context: architecture x86_64, binary format pe, ABI ms, assembler gas, suffix .asm, implementation fcontext
--- The ASM compiler identification is GNU
--- Found assembler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/gcc.exe
--- Boost.Fiber: NUMA target OS is windows
--- Performing Test BOOST_FILESYSTEM_HAS_INIT_PRIORITY
--- Performing Test BOOST_FILESYSTEM_HAS_INIT_PRIORITY - Success
--- Performing Test BOOST_FILESYSTEM_HAS_CXX20_ATOMIC_REF
--- Performing Test BOOST_FILESYSTEM_HAS_CXX20_ATOMIC_REF - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BLKSIZE
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BLKSIZE - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIM
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIM - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMENSEC
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMENSEC - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMESPEC
--- Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMESPEC - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STATX
--- Performing Test BOOST_FILESYSTEM_HAS_STATX - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_STATX_SYSCALL
--- Performing Test BOOST_FILESYSTEM_HAS_STATX_SYSCALL - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_FDOPENDIR_NOFOLLOW
--- Performing Test BOOST_FILESYSTEM_HAS_FDOPENDIR_NOFOLLOW - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_DIRENT_D_TYPE
--- Performing Test BOOST_FILESYSTEM_HAS_DIRENT_D_TYPE - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_POSIX_AT_APIS
--- Performing Test BOOST_FILESYSTEM_HAS_POSIX_AT_APIS - Failed
--- Performing Test BOOST_FILESYSTEM_HAS_BCRYPT
--- Performing Test BOOST_FILESYSTEM_HAS_BCRYPT - Success
--- Boost.Iostreams: ZLIB OFF, BZip2 OFF, LZMA OFF, Zstd OFF
--- Boost.Locale: iconv OFF, ICU OFF, POSIX OFF, std ON, winapi ON
--- Performing Test BOOST_LOG_TARGET_X86
--- Performing Test BOOST_LOG_TARGET_X86 - Success
--- Performing Test BOOST_LOG_HAS_LOCK_FREE_ATOMIC_INT32
--- Performing Test BOOST_LOG_HAS_LOCK_FREE_ATOMIC_INT32 - Success
--- Performing Test BOOST_LOG_COMPILER_HAS_SSSE3
--- Performing Test BOOST_LOG_COMPILER_HAS_SSSE3 - Success
--- Performing Test BOOST_LOG_COMPILER_HAS_AVX2
--- Performing Test BOOST_LOG_COMPILER_HAS_AVX2 - Success
--- Performing Test BOOST_LOG_HAS_NATIVE_SYSLOG
--- Performing Test BOOST_LOG_HAS_NATIVE_SYSLOG - Failed
--- Boost.Log: Message compiler found: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/windmc.exe
--- Boost.Math: standalone mode OFF
--- Boost.Multiprecision: standalone mode OFF
--- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
--- Boost.MySQL has been disabled, because the required package OpenSSL hasn't been found
--- Performing Test BOOST_NOWIDE_HAS_LFS
--- Performing Test BOOST_NOWIDE_HAS_LFS - Success
--- Performing Test BOOST_NOWIDE_HAS_INIT_PRIORITY
--- Performing Test BOOST_NOWIDE_HAS_INIT_PRIORITY - Success
--- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
--- Boost.Redis has been disabled, because the required package OpenSSL hasn't been found
--- Performing Test BOOST_STACKTRACE_HAS_BACKTRACE
--- Performing Test BOOST_STACKTRACE_HAS_BACKTRACE - Failed
--- Performing Test BOOST_STACKTRACE_HAS_WINDBG
--- Performing Test BOOST_STACKTRACE_HAS_WINDBG - Success
--- Performing Test BOOST_STACKTRACE_HAS_WINDBG_CACHED
--- Performing Test BOOST_STACKTRACE_HAS_WINDBG_CACHED - Success
--- Boost.Stacktrace: noop ON, backtrace OFF, addr2line OFF, basic ON, windbg ON, windbg_cached ON
--- Boost.Thread: threading API is win32
--- Configuring done (15.8s)
--- Generating done (1.5s)
--- Build files have been written to: D:/EPFL/GitHub/pcsc-project-1/cmake-build-debug
+CMake Error at CMakeLists.txt:5 (add_subdirectory):
+  The source directory
+
+    /Users/jiayewei927/Desktop/pcsc-project/external/googletest
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
