@@ -1,2 +1,0 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libboost_chrono-gcc13-mt-d-x64-1_84.a CMakeFiles/boost_chrono.dir/src/chrono.cpp.obj CMakeFiles/boost_chrono.dir/src/process_cpu_clocks.cpp.obj CMakeFiles/boost_chrono.dir/src/thread_clock.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libboost_chrono-gcc13-mt-d-x64-1_84.a

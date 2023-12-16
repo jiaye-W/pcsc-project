@@ -1,2 +1,0 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libboost_timer-gcc13-mt-d-x64-1_84.a CMakeFiles/boost_timer.dir/src/auto_timers_construction.cpp.obj CMakeFiles/boost_timer.dir/src/cpu_timer.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libboost_timer-gcc13-mt-d-x64-1_84.a
